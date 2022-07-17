@@ -24,6 +24,7 @@ export default function Home() {
 <div className="row"><HomeNews/></div>
 <div className="row"><HomeDownloads/></div>
 <div className="row"><HomeFooter/></div>
+<div className="row">salom test</div>
     </div>
   )
 }
