@@ -1,22 +1,314 @@
-.navbar{
+/* HomeNavbar block start */
+.homeNavbar {
     height: 12vh;
     background-color: #FDFDFF;
-    border: 1px solid red;
-}
-.homeMain{
-    height: 83vh;
-    border: 1px solid blue;
-}
-.homeBenefits{
-    height: 75vh;
-    border: 1px solid green;
+    border: 2px solid red;
 }
 
-.homeUsage{
-    height: 85vh;
-    border: 1px solid yellow;
+/* HomeNavbar block end */
+
+
+/* HomeMain block start */
+.homeMain {
+    height: 83vh;
+    border: 2px solid blue;
 }
-.homeProcess{
-    height:65vh;
-    border:1px solid brown;
+
+.mainLeft {
+    width: 50%;
+    height: 100%;
+}
+
+.mainRight {
+    width: 50%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.mainBtn {
+    width: 40%;
+}
+
+.mainImg {
+    height: 90%;
+    width: 90%;
+}
+
+/* HomeMain block end */
+
+
+/* HomeBenefits block start */
+.homeBenefits {
+    height: 75vh;
+    border: 2px solid green;
+}
+
+.benefitHeader {
+    width: 75%;
+}
+
+.benefitTop {
+    height: 40%;
+}
+
+.benefitBottom {
+    height: 60%;
+}
+
+.benefitCard {
+    height: 75%;
+    width: 25%;
+    background: #F9F9FF;
+    border-radius: 5px;
+}
+
+.iconWrapper {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #FF1E23, #E98936);
+    border-radius: 50%;
+    color: #fff;
+}
+
+.benefitCard p {
+    font-size: 13px;
+    opacity: 75%;
+}
+
+/* HomeBenefits block end */
+
+
+/* HomeUsage block start */
+.homeUsage {
+    height: 105vh;
+    border: 2px solid yellow;
+}
+
+.usageTop {
+    height: 20%;
+}
+
+.topLeft {
+    height: 100%;
+    width: 50%;
+}
+
+.topRight {
+    height: 100%;
+    width: 50%;
+}
+.topRight p{
+    opacity: 75%;
+}
+
+.usageBottom {
+    height: 80%;
+}
+
+.usageVideo{
+width: 100%;
+height: 90%;
+}
+
+/* HomeUsage block end */
+
+
+/* HomeProcess block start */
+.homeProcess {
+    height: 70vh;
+    border: 2px solid brown;
+}
+
+.processTop {
+    height: 35%;
+}
+
+.processBottom {
+    height: 65%;
+}
+
+/* HomeProcess block end */
+
+
+/* HomeStatistic block start */
+.homeStatistic {
+    height: 95vh;
+    border: 2px solid sandybrown;
+}
+
+/* HomeStatistic block end */
+
+
+/* HomeAd block start */
+.homeAd {
+    height: 20vh;
+    border: 2px solid darkgreen;
+    background-color: #6F44FF;
+}
+.ad_text{
+    width: 40%;
+}
+.adBtn{
+    height: 70%;
+}
+.adBtn i{
+    font-size: 18px;
+}
+
+/* HomeAd block end */
+
+
+/* HomeNews block start */
+.homeNews {
+    height: 75vh;
+    border: 2px solid orangered;
+}
+
+.newsTop {
+    height: 35%;
+}
+
+.newsBottom {
+    height: 65%;
+}
+
+/* HomeNews block end */
+
+
+/* HomeDownloads block start */
+.homeDownloads {
+    height: 90vh;
+    border: 2px solid darkorchid;
+}
+.downloadsFile{
+    height: 80%;
+    width: 22%;
+}
+
+.downloaderImg{
+    width: 100%;
+    height: 70%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.198);
+}
+.downloadesTexts{
+    height: 30%;    
+}
+.downloadesTexts p{
+    font-size: 14px;
+}
+/* HomeDownloads block end */
+
+
+/* HomeFooter block start */
+.homeFooter {
+    height: 40vh;
+    border: 2px solid teal;
+}
+
+/* HomeFooter block end */
+
+@media only screen and (max-width:576px) {
+    .mainLeft {
+        width: 100%;
+    }
+
+    .homeMain {
+        height: 45vh;
+        border: 2px solid blue;
+    }
+
+    .mainBtn {
+        width: 60%;
+    }
+
+    .homeBenefits {
+        height: 85vh;
+    }
+
+    .benefitTop {
+        height: 20%;
+    }
+
+    .benefitBottom {
+        height: 80%;
+    }
+
+    .benefitHeader {
+        width: 100%;
+    }
+
+    .benefitCard {
+        height: 30%;
+        width: 100%;
+    }
+    .homeUsage {
+        height: 55vh;
+        border: 2px solid yellow;
+    }
+    
+    .usageTop {
+        height: 50%;
+    }
+    
+    .topLeft {
+        height: 40%;
+        width: 100%;
+    }
+    
+    .topRight {
+        height: 60%;
+        width:100%;
+    }
+    .topRight p{
+        opacity: 75%;
+    }
+    
+    .usageBottom {
+        height: 50%;
+    }
+    
+    .usageVideo{
+    width: 100%;
+    height: 100%;
+    }
+    .homeAd {
+        height: 13vh;
+    }
+    .ad_text{
+        width: 100%;
+    }
+    .ad_text h4{
+        font-size: 16px;
+    }
+    .adBtn{
+        height: 45%;
+        width: 55%;
+        font-size: 13px;
+    }
+    .adBtn i{
+        font-size: 17px;
+    }
+    .homeDownloads {
+        height: 120vh;
+        border: 2px solid darkorchid;
+    }
+    .downloadsFile{
+        height: 45%;
+        width: 70%;
+    }
+    
+    .downloaderImg{
+        width: 100%;
+        height: 70%;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.198);
+    }
+    .downloadesTexts{
+        height: 30%;    
+    }
+    .downloadesTexts p{
+        font-size: 14px;
+    }
 }

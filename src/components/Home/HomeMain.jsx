@@ -1,7 +1,17 @@
-import React from 'react'
-
+import React from 'react';
+import MainImg from "../../images/main.png"
 export default function HomeMain() {
   return (
-    <div className='col-12 homeMain'>HomeMain</div>
+    <div className='col-12 homeMain d-xl-flex d-block'>
+      <div className="mainLeft d-flex flex-column justify-content-center ">
+        <h1 className='mb-1'>Magistratura uchun</h1>
+        <h1 className='mb-4 text-warning'>Qabul 2022</h1>
+        <p className='mb-4'>Oliy ta'lim muassasalarining magistraturasiga kirish imtihonlarida ishtirok etish uchun onlayn ariza topshirish tizimi</p>
+        <button className='mainBtn btn btn-warning d-flex justify-content-between text-black'>Ariza topshirish <i class="bi bi-arrow-right"></i></button>
+      </div>
+      <div className="mainRight d-xl-flex d-none align-items-end">
+        <img src={MainImg} alt="img" className='mainImg'/>
+      </div>
+    </div>
   )
 }
