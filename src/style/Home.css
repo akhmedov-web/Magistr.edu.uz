@@ -1,0 +1,22 @@
+.navbar{
+    height: 12vh;
+    background-color: #FDFDFF;
+    border: 1px solid red;
+}
+.homeMain{
+    height: 83vh;
+    border: 1px solid blue;
+}
+.homeBenefits{
+    height: 75vh;
+    border: 1px solid green;
+}
+
+.homeUsage{
+    height: 85vh;
+    border: 1px solid yellow;
+}
+.homeProcess{
+    height:65vh;
+    border:1px solid brown;
+}
