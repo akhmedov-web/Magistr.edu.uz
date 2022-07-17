@@ -1,6 +1,6 @@
 import React from 'react'
 import Downloader1 from "../../images/downloader1.png"
-import Downloader2 from "../../images/downloader2.jpg"
+import Downloader2 from "../../images/Downloader2.jpg"
 export default function HomeDownloads() {
   return (
     <div className='homeDownloads d-flex flex-xl-row flex-column justify-content-center align-items-center'>
