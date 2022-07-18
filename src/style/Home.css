@@ -272,6 +272,17 @@ color:rgba(0, 0, 0, 0.571);
 
 /* HomeFooter block end */
 
+.modal-content{
+width: 75%;
+}
+.changingPassword{
+    cursor: default;
+    font-size: 13px;
+}
+.changingPassword:hover{
+    text-decoration: underline;
+}
+
 @media only screen and (max-width:576px) {
     .mainLeft {
         width: 100%;
@@ -428,4 +439,7 @@ color:rgba(0, 0, 0, 0.571);
     .newsHeader {
         width: 90%;
     }
+    .modal-content{
+        width: 100%;
+        }
 }
