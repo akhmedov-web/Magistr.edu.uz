@@ -272,7 +272,45 @@
 .homeFooter {
     height: 40vh;
     border: 2px solid teal;
+    background: #313131;
+    color: white;
+    list-style: none;
+    display: flex;
 }
+
+.footerLogo {
+    background-image: url(../images/logo.svg);
+    background-repeat: no-repeat;
+    margin: 20px;
+
+}
+
+.footerLogo span {
+    position: relative;
+    line-height: 4rem;
+    font-size: 24px;
+    left: 4rem;
+
+}
+
+.homeFooter h5 {
+    text-align: center;
+}
+
+.footer li {
+    margin: 20px;
+}
+
+.homeFooter ul {
+    margin: 45px;
+}
+
+.homeFooter ul li {
+    line-height: 3rem;
+    text-align: center;
+    list-style: none;
+}
+
 
 /* HomeFooter block end */
 
@@ -308,10 +346,26 @@
         font-size: 24px;
     }
 
+    .logo {
+        position: absolute;
+
+        background-image: url(../images/logo.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 45%;
+        height: 80px;
+        position: relative;
+    }
+
+    .logo span {
+        line-height: 4.5rem;
+        font-size: 20px;
+    }
+
     .HomeNavbar .logo {
         position: absolute;
         top: 0;
-
+        height: 70px;
 
     }
 
@@ -438,4 +492,38 @@
     .downloadesTexts p {
         font-size: 14px;
     }
+
+
+
+    .homeFooter {
+        height: auto;
+        background: #313131;
+        color: white;
+        list-style: none;
+        display: block;
+    }
+
+    .homeFooter h5 {
+        text-align: start;
+    }
+
+    .footer {
+        margin: 44px;
+    }
+
+    .footerLogo span {
+        position: relative;
+        line-height: 4rem;
+        font-size: 24px;
+        left: 4rem;
+
+    }
+
+    .homeFooter ul li {
+        line-height: 3rem;
+        text-align: start;
+        list-style: none;
+    }
+
+
 }
