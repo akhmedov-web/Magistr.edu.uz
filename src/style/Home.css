@@ -362,7 +362,7 @@ color:rgba(0, 0, 0, 0.571);
     }
 
     .homeDownloads {
-        height: 120vh;
+        height: 140vh;
         border: 2px solid darkorchid;
     }
 
@@ -373,7 +373,7 @@ color:rgba(0, 0, 0, 0.571);
 
     .downloaderImg {
         width: 100%;
-        height: 70%;
+        height: 80%;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.198);
     }
 
@@ -424,5 +424,8 @@ color:rgba(0, 0, 0, 0.571);
     .processCard p {
         font-size: 13px;
         color: rgba(0, 0, 0, 0.542);
+    }
+    .newsHeader {
+        width: 90%;
     }
 }

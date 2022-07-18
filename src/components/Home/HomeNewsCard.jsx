@@ -27,6 +27,22 @@ export default function App() {
         navigation={true}
         modules={[Pagination, Navigation]}
         className="mySwiper"
+        breakpoints={{
+          // when window width is >= 640px
+          340: {
+            slidesPerView: 1,
+          },
+          // when window width is >= 768px
+          768: {
+            slidesPerView: 1,
+          },
+          992: {
+            slidesPerView: 2,
+          },
+          992: {
+            slidesPerView: 3,
+          },
+        }}
       >
         <SwiperSlide>
             <img src={Img} alt="img" />
