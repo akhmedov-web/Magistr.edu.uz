@@ -1,9 +1,64 @@
-/* HomeNavbar block start */
-.homeNavbar {
-    height: 12vh;
-    background-color: #FDFDFF;
-    border: 2px solid red;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+
+
+/* HomeNavbar*/
+
+.HomeNavbar {
+    width: 100%;
+    height: 12vh;
+    display: flex;
+
+}
+
+.HomeNavbar ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 55%;
+    padding: 43px;
+    color: #12141D;
+    list-style: none;
+    align-items: center;
+}
+
+.logo {
+    position: absolute;
+
+    background-image: url(../images/logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 45%;
+    height: 80px;
+    position: relative;
+}
+
+.logo span {
+    position: relative;
+    line-height: 5.5rem;
+    font-size: 24px;
+    left: 6rem;
+}
+
+.HomeNavbar .toggle-icon {
+    display: none;
+}
+
+.HomeNavbar .btn1 {
+    width: 155px;
+    height: 56px;
+    color: white;
+    background: #111E52;
+    border-radius: 8px;
+}
+
+
+
+
+
 
 /* HomeNavbar block end */
 
@@ -11,7 +66,9 @@
 /* HomeMain block start */
 .homeMain {
     height: 83vh;
-    border: 2px solid blue;
+    background: linear-gradient(0deg, #E9E9F9 0.76%, rgba(225, 226, 255, 0) 100%), #FFFFFF;
+
+
 }
 
 .mainLeft {
@@ -32,6 +89,7 @@
 .mainImg {
     height: 90%;
     width: 90%;
+
 }
 
 /* HomeMain block end */
@@ -100,7 +158,8 @@
     height: 100%;
     width: 50%;
 }
-.topRight p{
+
+.topRight p {
     opacity: 75%;
 }
 
@@ -108,9 +167,9 @@
     height: 80%;
 }
 
-.usageVideo{
-width: 100%;
-height: 90%;
+.usageVideo {
+    width: 100%;
+    height: 90%;
 }
 
 /* HomeUsage block end */
@@ -148,13 +207,16 @@ height: 90%;
     border: 2px solid darkgreen;
     background-color: #6F44FF;
 }
-.ad_text{
+
+.ad_text {
     width: 40%;
 }
-.adBtn{
+
+.adBtn {
     height: 70%;
 }
-.adBtn i{
+
+.adBtn i {
     font-size: 18px;
 }
 
@@ -183,22 +245,26 @@ height: 90%;
     height: 90vh;
     border: 2px solid darkorchid;
 }
-.downloadsFile{
+
+.downloadsFile {
     height: 80%;
     width: 22%;
 }
 
-.downloaderImg{
+.downloaderImg {
     width: 100%;
     height: 70%;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.198);
 }
-.downloadesTexts{
-    height: 30%;    
+
+.downloadesTexts {
+    height: 30%;
 }
-.downloadesTexts p{
+
+.downloadesTexts p {
     font-size: 14px;
 }
+
 /* HomeDownloads block end */
 
 
@@ -211,13 +277,63 @@ height: 90%;
 /* HomeFooter block end */
 
 @media only screen and (max-width:576px) {
+    .HomeNavbar {
+        position: relative;
+        transition: 0.5s height ease-in-out;
+    }
+
+    .HomeNavbar.expanded {
+        height: 80vh;
+        overflow: hidden;
+    }
+
+    .HomeNavbar.expanded ul {
+        position: absolute;
+        top: 120px;
+        left: 0;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        overflow: hidden;
+
+    }
+
+    .HomeNavbar.expanded ul li {
+        margin: 15px 0;
+        font-size: 24px;
+    }
+
+    .HomeNavbar.expanded ul a {
+        margin: 15px 0;
+        font-size: 24px;
+    }
+
+    .HomeNavbar .logo {
+        position: absolute;
+        top: 0;
+
+
+    }
+
+    .HomeNavbar .toggle-icon {
+        color: #000;
+        display: block;
+        position: absolute;
+        top: 28px;
+        right: 20px;
+    }
+
+    .HomeNavbar ul {
+        display: none;
+    }
+
+
     .mainLeft {
         width: 100%;
     }
 
     .homeMain {
         height: 45vh;
-        border: 2px solid blue;
     }
 
     .mainBtn {
@@ -244,71 +360,82 @@ height: 90%;
         height: 30%;
         width: 100%;
     }
+
     .homeUsage {
         height: 55vh;
         border: 2px solid yellow;
     }
-    
+
     .usageTop {
         height: 50%;
     }
-    
+
     .topLeft {
         height: 40%;
         width: 100%;
     }
-    
+
     .topRight {
         height: 60%;
-        width:100%;
+        width: 100%;
     }
-    .topRight p{
+
+    .topRight p {
         opacity: 75%;
     }
-    
+
     .usageBottom {
         height: 50%;
     }
-    
-    .usageVideo{
-    width: 100%;
-    height: 100%;
+
+    .usageVideo {
+        width: 100%;
+        height: 100%;
     }
+
     .homeAd {
         height: 13vh;
     }
-    .ad_text{
+
+    .ad_text {
         width: 100%;
     }
-    .ad_text h4{
+
+    .ad_text h4 {
         font-size: 16px;
     }
-    .adBtn{
+
+    .adBtn {
         height: 45%;
         width: 55%;
         font-size: 13px;
     }
-    .adBtn i{
+
+    .adBtn i {
         font-size: 17px;
     }
+
     .homeDownloads {
         height: 120vh;
         border: 2px solid darkorchid;
     }
-    .downloadsFile{
+
+    .downloadsFile {
         height: 45%;
         width: 70%;
     }
-    
-    .downloaderImg{
+
+    .downloaderImg {
         width: 100%;
         height: 70%;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.198);
     }
-    .downloadesTexts{
-        height: 30%;    
+
+    .downloadesTexts {
+        height: 30%;
     }
-    .downloadesTexts p{
+
+    .downloadesTexts p {
         font-size: 14px;
     }
 }
