@@ -57,6 +57,16 @@ export default function HomeStatistic() {
             <td>Invite Brown Delete</td>
             <td>Black teacher</td>
           </tr>
+          <tr>
+            <td>Paris No. 1 Lake Park</td>
+            <td>Invite Brown Delete</td>
+            <td>Black teacher</td>
+          </tr>
+          <tr>
+            <td>Seoul No. 1 Lake Park</td>
+            <td>Invite Brown Delete</td>
+            <td>Black teacher</td>
+          </tr>
         </tbody>
       </table>
 
