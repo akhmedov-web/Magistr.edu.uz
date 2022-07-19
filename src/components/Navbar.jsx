@@ -10,6 +10,10 @@ const HomeNavbar = () => {
 
 
 
+<<<<<<< HEAD:src/components/Home/HomeNavbar.jsx
+=======
+export default function Navbar() {
+>>>>>>> 69b215395732f5941503c19fbda95bcf003eaa9c:src/components/Navbar.jsx
   return (
     <div className={ toggleMenu ? 'HomeNavbar col-12 expanded' : 'HomeNavbar'}>
       <div className='logo'> <span> Magistr.edu.uz</span></div>
