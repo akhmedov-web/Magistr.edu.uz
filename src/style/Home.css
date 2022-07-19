@@ -525,11 +525,8 @@ width: 75%;
     }
 
     .adBtn {
-<<<<<<< HEAD
         height: 45%;
-=======
         height: 35%;
->>>>>>> 69b215395732f5941503c19fbda95bcf003eaa9c
         width: 55%;
         font-size: 13px;
     }
@@ -544,11 +541,8 @@ width: 75%;
     }
 
     .downloadsFile {
-<<<<<<< HEAD
         height: 45%;
-=======
         height: 38%;
->>>>>>> 69b215395732f5941503c19fbda95bcf003eaa9c
         width: 70%;
     }
 
@@ -566,7 +560,6 @@ width: 75%;
         font-size: 14px;
     }
 
-<<<<<<< HEAD
 
 
     .homeFooter {
@@ -600,7 +593,6 @@ width: 75%;
     }
 
 
-=======
     .homeProcess {
         height: 110vh;
         border: 2px solid brown;
@@ -655,5 +647,4 @@ width: 75%;
     .modal-content{
         width: 100%;
         }
->>>>>>> 69b215395732f5941503c19fbda95bcf003eaa9c
 }
