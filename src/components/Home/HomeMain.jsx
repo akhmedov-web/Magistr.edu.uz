@@ -11,7 +11,6 @@ export default function HomeMain() {
         <p className='mb-4'>Oliy ta'lim muassasalarining magistraturasiga kirish imtihonlarida ishtirok etish uchun onlayn ariza topshirish tizimi</p>
         <button className='mainBtn btn btn-warning d-flex justify-content-between text-black' data-bs-toggle="modal" href="#exampleModalToggle">Ariza topshirish <i class="bi bi-arrow-right"></i></button>
         <Modal />
-        <Link to="/account" className='btn btn-success'>ok</Link>
       </div>
       <div className="mainRight d-xl-flex d-none align-items-end">
         <img src={MainImg} alt="img" className='mainImg' />
