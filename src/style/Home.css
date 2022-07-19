@@ -98,7 +98,7 @@
 /* HomeBenefits block start */
 .homeBenefits {
     height: 75vh;
-    border: 2px solid green;
+
 }
 
 .benefitHeader {
@@ -142,7 +142,7 @@
 /* HomeUsage block start */
 .homeUsage {
     height: 105vh;
-    border: 2px solid yellow;
+;
 }
 
 .usageTop {
@@ -178,7 +178,7 @@
 /* HomeProcess block start */
 .homeProcess {
     height: 70vh;
-    border: 2px solid brown;
+
     background-color: #F9F9FF;
 }
 
@@ -223,7 +223,7 @@
 /* HomeStatistic block start */
 .homeStatistic {
     height: 95vh;
-    border: 2px solid sandybrown;
+
 }
 
 /* HomeStatistic block end */
@@ -232,7 +232,7 @@
 /* HomeAd block start */
 .homeAd {
     height: 20vh;
-    border: 2px solid darkgreen;
+
     background-color: #6F44FF;
 }
 
@@ -254,7 +254,7 @@
 /* HomeNews block start */
 .homeNews {
     height: 75vh;
-    border: 2px solid orangered;
+
 }
 
 .newsTop {
@@ -297,7 +297,7 @@ color:rgba(0, 0, 0, 0.571);
 /* HomeDownloads block start */
 .homeDownloads {
     height: 90vh;
-    border: 2px solid darkorchid;
+
 }
 
 .downloadsFile {
@@ -325,7 +325,7 @@ color:rgba(0, 0, 0, 0.571);
 /* HomeFooter block start */
 .homeFooter {
     height: 40vh;
-    border: 2px solid teal;
+
     background: #313131;
     color: white;
     list-style: none;
@@ -482,7 +482,7 @@ width: 75%;
 
     .homeUsage {
         height: 70vh;
-        border: 2px solid yellow;
+
     }
 
     .usageTop {
@@ -537,7 +537,7 @@ width: 75%;
 
     .homeDownloads {
         height: 140vh;
-        border: 2px solid darkorchid;
+
     }
 
     .downloadsFile {
@@ -595,7 +595,7 @@ width: 75%;
 
     .homeProcess {
         height: 110vh;
-        border: 2px solid brown;
+    
         background-color: #F9F9FF;
     }
 
@@ -635,14 +635,13 @@ width: 75%;
     }
     .homeNews {
         height: 85vh;
-        border: 2px solid orangered;
     }
     .newsHeader {
         width: 90%;
     }
     .homeDownloads {
         height: 150vh;
-        border: 2px solid darkorchid;
+
     }
     .modal-content{
         width: 100%;

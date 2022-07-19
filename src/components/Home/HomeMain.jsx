@@ -1,7 +1,6 @@
 import React from 'react';
 import MainImg from "../../images/main.png"
 import Modal from '../Modal/Modal';
-import {Link} from "react-router-dom"
 export default function HomeMain() {
   return (
     <div className='col-12 homeMain d-xl-flex d-block'>
