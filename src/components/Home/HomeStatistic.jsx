@@ -60,12 +60,29 @@ export default function HomeStatistic() {
           <tr>
             <td>Paris No. 1 Lake Park</td>
             <td>Invite Brown Delete</td>
+            <td>Brown developer</td>
+
+          </tr>
+          <tr>
+            <td>Madrid No. 1 Lake Park</td>
+            <td>Invite Brown Delete</td>
+            <td>Green  loser</td>
+          </tr>
+          <tr>
+            <td>Tokio No. 1 Lake Park</td>
+            <td>Invite Brown Delete</td>
             <td>Black teacher</td>
+          </tr>
+
+          <tr>
+            <td>Moskva No. 1 Lake Park</td>
+            <td>Invite Brown Delete</td>
+            <td>Brown developer</td>
           </tr>
           <tr>
             <td>Seoul No. 1 Lake Park</td>
             <td>Invite Brown Delete</td>
-            <td>Black teacher</td>
+            <td>Green  loser</td>
           </tr>
         </tbody>
       </table>

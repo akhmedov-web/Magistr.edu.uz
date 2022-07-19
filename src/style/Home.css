@@ -232,11 +232,15 @@
     background: #F9F9FF;
     border-radius: 4px;
 }
-.home_input{
+
+.home_input {
     justify-content: space-between;
     display: flex;
 }
 
+.table tr td:nth-child(2) {
+    color: #1890FF;
+}
 
 
 
@@ -552,17 +556,19 @@
     .adBtn i {
         font-size: 17px;
     }
-    .home_input{
+
+    .home_input {
         justify-content: space-between;
         display: block;
     }
+
     .homeBox {
         width: 100%;
         height: 25vh;
         background: #F9F9FF;
         border-radius: 4px;
     }
-    
+
     .homeDownloads {
         height: 140vh;
         border: 2px solid darkorchid;
