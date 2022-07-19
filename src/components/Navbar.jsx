@@ -19,8 +19,9 @@ const HomeNavbar = () => {
         <li>Imtiyozlar</li>
         <li>Yangiliklar</li>
         <li>Statistika</li>
-        <button className='btn1'>Kirish </button>
+        <button className='btn1' data-bs-toggle="modal" href="#exampleModalToggle">Kirish </button>
       </ul>
+
 
       <div className="toggle-icon" onClick={toggleNav}>
         {toggleMenu ? <Icon icon={x} size={28} /> : <Icon icon={menu} size={28} />}
