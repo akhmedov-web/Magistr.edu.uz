@@ -378,7 +378,7 @@ width: 75%;
     }
 
     .downloadsFile {
-        height: 45%;
+        height: 38%;
         width: 70%;
     }
 
@@ -435,6 +435,10 @@ width: 75%;
     .processCard p {
         font-size: 13px;
         color: rgba(0, 0, 0, 0.542);
+    }
+    .homeNews {
+        height: 85vh;
+        border: 2px solid orangered;
     }
     .newsHeader {
         width: 90%;
