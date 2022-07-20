@@ -13,13 +13,15 @@ import EducationalInform from './components/Entrance/EducationalInform';
 import ChoosenSpecialty from './components/Entrance/ChoosenSpecialty';
 import PrivilegeInform from './components/Entrance/PrivilegeInform';
 import Stepper from './components/Entrance/Stepper';
+import News from './pages/News';
 
 export default function App() {
   return (
     <div className='container'>
     <BrowserRouter>
     <div className="row"><Navbar/></div>
-    <Routes>
+     <div className="main">
+     <Routes>
       <Route path="/" element={<Home/>} />
       <Route path="/entrance" element={<Entrance/>}>
 <Route path="" element={<EntryPage/>}></Route>
@@ -34,29 +36,11 @@ export default function App() {
       <Route path="" element={<Application/>}></Route>
       <Route path="full-info" element={<FullInfo/>}></Route>
       </Route>
-      
+      <Route path="/news" element={<News/>}/>
     </Routes>
+     </div>
     <div className="row"><Footer/></div>
     </BrowserRouter>
-      <BrowserRouter>
-        <div className="row"><Navbar /></div>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/entrance" element={<Entrance />}>
-            <Route path="" element={<EntryPage />}></Route>
-            <Route path="personal" element={<PersonalInform />}></Route>
-            <Route path="educations" element={<EducationalInform />}></Route>
-            <Route path="specialty" element={<ChoosenSpecialty />}></Route>
-            <Route path="privilege" element={<PrivilegeInform />}></Route>
-          </Route>
-          <Route path="/account" element={<Account />}>
-            <Route path="" element={<Application />}></Route>
-            <Route path="full-info" element={<FullInfo />}></Route>
-          </Route>
-
-        </Routes>
-        <div className="row"><Footer /></div>
-      </BrowserRouter>
     </div>
   )
 }

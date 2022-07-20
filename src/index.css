@@ -2,4 +2,6 @@ body{
     font-family: sans-serif;
     box-sizing: border-box;
 }
-
+.main{
+    background-color: #F2F3F7;
+}

@@ -1,0 +1,30 @@
+.entryBlock{
+    height: 40rem;
+}
+.entryInform{
+    width: 60%;
+    height: 60%;
+  }
+  .entryInform h1{
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight: 550;
+    line-height: 60px;
+  }
+  .entryBtn{
+    font-size: 14px;
+    color: white;
+  }
+  .entryFooterText{
+    font-family:sans-serif;  
+    font-size: 14px;  
+  }
+  @media only screen and (max-width:576px){
+    .entryInform{
+        width: 90%;
+        height: 80%;
+      }
+      .entryInform h1{
+        font-size: 22px;
+      }
+  }
