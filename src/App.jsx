@@ -20,7 +20,6 @@ export default function App() {
     <div className='container'>
     <BrowserRouter>
     <div className="row"><Navbar/></div>
-     <div className="main">
      <Routes>
       <Route path="/" element={<Home/>} />
       <Route path="/entrance" element={<Entrance/>}>
@@ -38,7 +37,6 @@ export default function App() {
       </Route>
       <Route path="/news" element={<News/>}/>
     </Routes>
-     </div>
     <div className="row"><Footer/></div>
     </BrowserRouter>
     </div>

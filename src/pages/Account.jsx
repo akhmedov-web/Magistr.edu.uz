@@ -4,6 +4,8 @@ import "../style/Account.css"
 
 export default function Account() {
   return (
-    <div><Outlet/></div>
+    <>
+      <Outlet/>
+    </>
   )
 }
