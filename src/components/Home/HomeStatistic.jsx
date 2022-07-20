@@ -64,7 +64,7 @@ export default function HomeStatistic() {
 
           </tr>
           <tr>
-            <td>Madrid No. 1 Lake Park</td>
+            <td>Seoul No. 1 Lake Park</td>
             <td>Invite Brown Delete</td>
             <td>Green  loser</td>
           </tr>
@@ -74,16 +74,7 @@ export default function HomeStatistic() {
             <td>Black teacher</td>
           </tr>
 
-          <tr>
-            <td>Moskva No. 1 Lake Park</td>
-            <td>Invite Brown Delete</td>
-            <td>Brown developer</td>
-          </tr>
-          <tr>
-            <td>Seoul No. 1 Lake Park</td>
-            <td>Invite Brown Delete</td>
-            <td>Green  loser</td>
-          </tr>
+
         </tbody>
       </table>
 
