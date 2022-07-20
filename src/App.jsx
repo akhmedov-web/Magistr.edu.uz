@@ -14,6 +14,7 @@ import PersonalInform from './components/Entrance/PersonalInform';
 import EducationalInform from './components/Entrance/EducationalInform';
 import ChoosenSpecialty from './components/Entrance/ChoosenSpecialty';
 import PrivilegeInform from './components/Entrance/PrivilegeInform';
+import Stepper from './components/Entrance/Stepper';
 
 export default function App() {
   return (
@@ -24,10 +25,12 @@ export default function App() {
       <Route path="/" element={<Home/>} />
       <Route path="/entrance" element={<Entrance/>}>
 <Route path="" element={<EntryPage/>}></Route>
-<Route path="personal" element={<PersonalInform/>}></Route>
+<Route path="stepper" element={<Stepper/>}>
+<Route path="" element={<PersonalInform/>}></Route>
 <Route path="educations" element={<EducationalInform/>}></Route>
 <Route path="specialty" element={<ChoosenSpecialty/>}></Route>
 <Route path="privilege" element={<PrivilegeInform/>}></Route>
+      </Route>
       </Route>
       <Route path="/account" element={<Account/>}>
       <Route path="" element={<Application/>}></Route>

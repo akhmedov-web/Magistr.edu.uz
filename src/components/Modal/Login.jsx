@@ -1,6 +1,8 @@
 import React from 'react'
+import {useNavigate} from "react-router-dom"
 
 export default function Login() {
+  const  link=useNavigate()
   return (
     <>
     <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
@@ -21,9 +23,9 @@ export default function Login() {
                             </div>
                         </div>
                         <div class="modal-footer flex-column">
-                            <button class="btn btn-outline-primary w-75" data-bs-dismiss="modal" aria-label="Close">Kirish</button>
+                            <button class="btn btn-outline-primary w-75"  onClick={()=>link("/entrance")} data-bs-dismiss="modal">Kirish</button>
                             <p>yoki</p>
-                            <button class="btn btn-primary w-75" data-bs-dismiss="modal" aria-label="Close">OneId orqali kirish</button>
+                            <button class="btn btn-primary w-75"  onClick={()=>link("/entrance")} data-bs-dismiss="modal">OneId orqali kirish</button>
                         </div>
                     </div>
                 </div>

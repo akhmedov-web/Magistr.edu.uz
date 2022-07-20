@@ -1,9 +1,10 @@
 import React from 'react'
-import {Link} from "react-router-dom"
+import {useNavigate} from "react-router-dom"
 export default function Registration() {
+    const link=useNavigate();
   return (
     <>
-        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+        <div class="modal" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -22,7 +23,7 @@ export default function Registration() {
                         </div>
                         <div class="modal-footer flex-column">
                             <button class="btn btn-outline-primary w-75" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Ro'yhatdan o'tish</button>
-                            <button class="btn btn-primary w-75" data-bs-dismiss="modal" aria-label="Close">OneId orqali kirish</button>
+                            <button class="btn btn-primary w-75" onClick={()=>link("/entrance")} data-bs-dismiss="modal">OneId orqali kirish</button>
                             <p>yoki</p>
                             <button class="btn btn-primary w-75" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Kirish</button>
                         </div>

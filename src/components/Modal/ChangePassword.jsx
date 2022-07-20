@@ -1,6 +1,8 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 export default function ChangePassword() {
+    const link=useNavigate();
   return (
     <>
      <div class="modal fade" id="exampleModalToggle3" aria-hidden="true" aria-labelledby="exampleModalToggleLabel3" tabindex="-1">
@@ -42,7 +44,7 @@ export default function ChangePassword() {
                             <p className='text-primary' style={{fontSize:"13px"}}>Kodni qayta yuborish </p>
                         </div>
                         <div class="modal-footer flex-column">
-                            <button class="btn btn-primary w-75" data-bs-dismiss="modal" aria-label="Close">O'zgartirish</button>
+                            <button class="btn btn-primary w-75"  onClick={()=>link("/entrance")} data-bs-dismiss="modal">O'zgartirish</button>
                         </div>
                     </div>
                 </div>
