@@ -38,25 +38,7 @@ export default function App() {
         </Routes>
         <div className="row"><Footer /></div>
       </BrowserRouter>
-      {/* <BrowserRouter>
-        <div className="row"><Navbar /></div>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/entrance" element={<Entrance />}>
-            <Route path="" element={<EntryPage />}></Route>
-            <Route path="personal" element={<PersonalInform />}></Route>
-            <Route path="educations" element={<EducationalInform />}></Route>
-            <Route path="specialty" element={<ChoosenSpecialty />}></Route>
-            <Route path="privilege" element={<PrivilegeInform />}></Route>
-          </Route>
-          <Route path="/account" element={<Account />}>
-            <Route path="" element={<Application />}></Route>
-            <Route path="full-info" element={<FullInfo />}></Route>
-          </Route>
-
-        </Routes>
-        <div className="row"><Footer /></div>
-      </BrowserRouter> */}
+      
     </div>
   )
 }
