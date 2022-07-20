@@ -227,6 +227,25 @@
 
 }
 
+.homeBox {
+    width: 100%;
+    height: 18vh;
+    background: #F9F9FF;
+    border-radius: 4px;
+}
+
+.home_input {
+    justify-content: space-between;
+    display: flex;
+}
+
+.table tr td:nth-child(2) {
+    color: #1890FF;
+}
+
+
+
+
 /* HomeStatistic block end */
 
 
@@ -284,10 +303,11 @@
 .swiper-slide img {
     width: 100%;
     height: 60%;
-    border-radius:10px;
+    border-radius: 10px;
 }
-.swiper-slide p{
-color:rgba(0, 0, 0, 0.571);
+
+.swiper-slide p {
+    color: rgba(0, 0, 0, 0.571);
 }
 
 
@@ -369,14 +389,16 @@ color:rgba(0, 0, 0, 0.571);
 
 /* HomeFooter block end */
 
-.modal-content{
-width: 75%;
+.modal-content {
+    width: 75%;
 }
-.changingPassword{
+
+.changingPassword {
     cursor: default;
     font-size: 13px;
 }
-.changingPassword:hover{
+
+.changingPassword:hover {
     text-decoration: underline;
 }
 
@@ -536,6 +558,18 @@ width: 75%;
         font-size: 17px;
     }
 
+    .home_input {
+        justify-content: space-between;
+        display: block;
+    }
+
+    .homeBox {
+        width: 100%;
+        height: 25vh;
+        background: #F9F9FF;
+        border-radius: 4px;
+    }
+
     .homeDownloads {
         height: 140vh;
 
@@ -634,17 +668,21 @@ width: 75%;
         font-size: 13px;
         color: rgba(0, 0, 0, 0.542);
     }
+
     .homeNews {
         height: 85vh;
     }
+
     .newsHeader {
         width: 90%;
     }
+
     .homeDownloads {
         height: 150vh;
 
     }
-    .modal-content{
+
+    .modal-content {
         width: 100%;
-        }
+    }
 }
