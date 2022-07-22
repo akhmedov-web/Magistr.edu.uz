@@ -1,7 +1,7 @@
 import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import { useNavigate } from "react-router-dom";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -13,6 +13,7 @@ import Img from "../../images/example.jpg"
 import { Pagination, Navigation } from "swiper";
 
 export default function App() {
+  const link=useNavigate();
   return (
     <>
       <Swiper
@@ -44,27 +45,27 @@ export default function App() {
           },
         }}
       >
-        <SwiperSlide>
+        <SwiperSlide onClick={()=>link("/news")}>
             <img src={Img} alt="img" />
             <p className="mt-4">November 25, 2022</p>
             <h4>Qabul-2020: Magistraturaga qabul va kirish imtihonlari haqida batafsil</h4>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide onClick={()=>link("/news")}>
             <img src={Img} alt="img" />
             <p className="mt-4">November 25, 2022</p>
             <h4>Qabul-2020: Magistraturaga qabul va kirish imtihonlari haqida batafsil</h4>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide onClick={()=>link("/news")}>
             <img src={Img} alt="img" />
             <p className="mt-4">November 25, 2022</p>
             <h4>Qabul-2020: Magistraturaga qabul va kirish imtihonlari haqida batafsil</h4>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide onClick={()=>link("/news")}>
             <img src={Img} alt="img" />
             <p className="mt-4">November 25, 2022</p>
             <h4>Qabul-2020: Magistraturaga qabul va kirish imtihonlari haqida batafsil</h4>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide onClick={()=>link("/news")}>
             <img src={Img} alt="img" />
             <p className="mt-4">November 25, 2022</p>
             <h4>Qabul-2020: Magistraturaga qabul va kirish imtihonlari haqida batafsil</h4>

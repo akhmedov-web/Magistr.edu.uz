@@ -13,6 +13,7 @@ import EducationalInform from './components/Entrance/EducationalInform';
 import ChoosenSpecialty from './components/Entrance/ChoosenSpecialty';
 import PrivilegeInform from './components/Entrance/PrivilegeInform';
 import Stepper from './components/Entrance/Stepper';
+import News from './pages/News';
 
 export default function App() {
   return (
@@ -34,11 +35,10 @@ export default function App() {
             <Route path="" element={<Application />}></Route>
             <Route path="full-info" element={<FullInfo />}></Route>
           </Route>
-
+          <Route path="/news" element={<News />} />
         </Routes>
         <div className="row"><Footer /></div>
       </BrowserRouter>
-
     </div>
   )
 }

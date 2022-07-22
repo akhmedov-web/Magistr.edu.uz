@@ -1,0 +1,278 @@
+.account {
+    /* background-color: #F2F3F7; */
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 30px;
+}
+
+.head-step {
+    color: #212121;
+    font-weight: 500;
+    margin-right: 5px;
+}
+
+.head-step i {
+    font-size: 24px;
+    margin-right: 5px;
+}
+
+.bi-chevron-right {
+    font-size: 12px;
+}
+
+.open-link {
+    color: #2463EB;
+}
+
+/* ========== sidebar ========== */
+
+.account-content {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.account-sidebar {
+    /* border: 1px solid red; */
+    width: 30%;
+    min-height: 40vh;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.person-head {
+    border-bottom: 1px solid #e0dbdb;
+}
+
+.person-head .avatar {
+    /* border: 1px solid red; */
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.avatar-name {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.person-body {
+    border-bottom: 1px solid #e0dbdb;
+}
+
+.person-body .title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px
+}
+
+.aplication {
+    background: 10px;
+    border: 2px dotted #2463EB;
+    background-color: #E6F7FF;
+    font-weight: bold;
+    color: #212121;
+}
+
+.setting {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.note {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    margin-top: 5px;
+    width: 50px;
+    height: 20px;
+    border-radius: 12px;
+    background-color: #A4A4E2;
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: 1px solid silver;
+    cursor: pointer;
+}
+
+
+input[type="checkbox"]::before {
+
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 1px 0.3px rgb(0, 0, 0);
+    transition: 0.5s ease;
+    background-color: #9998eb;
+
+}
+
+input[type="checkbox"]:checked::before {
+
+    background-color: #5755D4;
+    box-shadow: 0px 0px 1px 0.3px rgb(0, 0, 0);
+    transform: translateX(25px);
+
+}
+
+.note-text {
+    font-size: 14px;
+    color: #595959;
+    font-weight: 400;
+}
+
+.links .link-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.ul__nav {
+    list-style-type: none;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* ========== sidebar end ========== */
+
+
+
+/* ========== Account about ======== */
+
+
+.card-add {
+    min-height: 24vh;
+    height: 320px;
+    position: relative;
+    background: linear-gradient(90deg , rgba(0, 0, 255, 0.557), rgba(255, 0, 0, 0.411));
+    /* background: linear-gradient(83.14deg, rgba(55, 86, 255, 0.696) 0.33%, rgba(155, 39, 218, 0) 99.7%);     */
+}
+
+.card-add img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.card-added {
+    z-index: 2;
+    /* border: 1px solid red; */
+}
+
+.add-title {
+    font-size: 48px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.card-added .btn i {
+    margin-left: 30px;
+}
+
+.account-about {
+    /* border: 1px solid red; */
+    width: 68%;
+}
+
+.account-title {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+
+
+/* ========== Account about end ======== */
+
+/* ==========   PETITION ===== */
+
+
+
+.card-top {
+    border-bottom: 1px solid #e0dbdb;
+}
+
+.ariza {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.ariza-date {
+    color: #595959;
+}
+
+.date {
+    font-weight: 600;
+    color: #000;
+}
+
+.cart-body {
+    border-bottom: 1px solid #e0dbdb;
+}
+
+.cardBody-left {
+    width: 50%;
+}
+
+.otm-title {
+    font-size: 14px;
+    font-weight: 400;
+    color: #595959;
+}
+
+.otm-name {
+    font-weight: 600;
+}
+
+.otm-locate {
+    font-size: 14px;
+    color: #212121;
+}
+
+.cardBody-right {
+    width: 50%;
+    flex-direction: column;
+}
+
+.status {
+    font-size: 14px;
+    font-weight: 400;
+    color: #595959;
+}
+
+.status-action {
+    background: rgba(33, 150, 83, 0.1);
+    font-size: 14px;
+    color: green;
+}
+
+.bottom-left i {
+    color: #4327BA;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.delete {
+    color: #595959;
+    font-size: 14px;
+}
+
+.btn-outline-dark i {
+    margin-right: 5px;
+}
