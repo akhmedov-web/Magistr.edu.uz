@@ -23,7 +23,7 @@ export default function Registration() {
                         </div>
                         <div class="modal-footer flex-column">
                             <button class="btn btn-outline-primary w-75" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Ro'yhatdan o'tish</button>
-                            <button class="btn btn-primary w-75" onClick={()=>link("/entrance")} data-bs-dismiss="modal">OneId orqali kirish</button>
+                            <button class="btn btn-primary w-75" onClick={()=>link("/stepper")} data-bs-dismiss="modal">OneId orqali kirish</button>
                             <p>yoki</p>
                             <button class="btn btn-primary w-75" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Kirish</button>
                         </div>

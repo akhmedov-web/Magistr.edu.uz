@@ -4,6 +4,6 @@ import "../style/Entrance.css"
 
 export default function Entrance() {
   return (
-    <div><Outlet/></div>
+    <div style={{backgroundColor:"#F2F3F7"}}><Outlet/></div>
   )
 }

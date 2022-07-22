@@ -142,7 +142,7 @@
 /* HomeUsage block start */
 .homeUsage {
     height: 105vh;
-;
+    ;
 }
 
 .usageTop {
@@ -225,6 +225,8 @@
     height: 95vh;
 
 }
+
+
 
 .homeBox {
     width: 100%;
@@ -475,7 +477,7 @@
     }
 
     .homeMain {
-        height: 45vh;
+        height: 50vh;
     }
 
     .mainBtn {
@@ -483,7 +485,7 @@
     }
 
     .homeBenefits {
-        height: 105vh;
+        height: 120vh;
     }
 
     .benefitTop {
@@ -630,7 +632,7 @@
 
     .homeProcess {
         height: 110vh;
-    
+
         background-color: #F9F9FF;
     }
 
@@ -684,5 +686,9 @@
 
     .modal-content {
         width: 100%;
+    }
+    #collapse1 {
+        overflow-y:scroll;
+        height: 50%;
     }
 }

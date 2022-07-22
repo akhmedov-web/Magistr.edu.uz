@@ -31,53 +31,61 @@ export default function HomeStatistic() {
       </div>
 
 
+      <div id="collapse1">
+        <table class="table">
+          <thead>
+            <tr>
+              <th >Mutaxasislik nomi</th>
+              <th >Mutaxasislik shifiri</th>
+              <th >Mutaxasislik sohasi</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>New York No. 1 Lake Park</td>
+              <td>Invite Brown Delete</td>
+              <td>Brown developer</td>
+            </tr>
+            <tr>
+              <td>London No.1 Lake Park</td>
+              <td>Invite Brown Delete</td>
+              <td>Green  loser</td>
+            </tr>
+            <tr>
+              <td>Sidney No. 1 Lake Park</td>
+              <td>Invite Brown Delete</td>
+              <td>Black teacher</td>
+            </tr>
+            <tr>
+              <td>Paris No. 1 Lake Park</td>
+              <td>Invite Brown Delete</td>
+              <td>Brown developer</td>
+
+            </tr>
+            <tr>
+              <td>Seoul No. 1 Lake Park</td>
+              <td>Invite Brown Delete</td>
+              <td>Green  loser</td>
+            </tr>
+            <tr>
+              <td>Tokio No. 1 Lake Park</td>
+              <td>Invite Brown Delete</td>
+              <td>Black teacher</td>
+            </tr>
+            <tr>
+              <td>Tokio No. 1 Lake Park</td>
+              <td>Invite Brown Delete</td>
+              <td>Black teacher</td>
+            </tr><tr>
+              <td>Tokio No. 1 Lake Park</td>
+              <td>Invite Brown Delete</td>
+              <td>Black teacher</td>
+            </tr>
 
 
-      <table class="table">
-        <thead>
-          <tr>
-            <th scope="col">Mutaxasislik nomi</th>
-            <th scope="col">Mutaxasislik shifiri</th>
-            <th scope="col">Mutaxasislik sohasi</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>New York No. 1 Lake Park</td>
-            <td>Invite Brown Delete</td>
-            <td>Brown developer</td>
-          </tr>
-          <tr>
-            <td>London No.1 Lake Park</td>
-            <td>Invite Brown Delete</td>
-            <td>Green  loser</td>
-          </tr>
-          <tr>
-            <td>Sidney No. 1 Lake Park</td>
-            <td>Invite Brown Delete</td>
-            <td>Black teacher</td>
-          </tr>
-          <tr>
-            <td>Paris No. 1 Lake Park</td>
-            <td>Invite Brown Delete</td>
-            <td>Brown developer</td>
-
-          </tr>
-          <tr>
-            <td>Seoul No. 1 Lake Park</td>
-            <td>Invite Brown Delete</td>
-            <td>Green  loser</td>
-          </tr>
-          <tr>
-            <td>Tokio No. 1 Lake Park</td>
-            <td>Invite Brown Delete</td>
-            <td>Black teacher</td>
-          </tr>
-
-
-        </tbody>
-      </table>
-
+          </tbody>
+        </table>
+      </div>
     </div >
   )
 }
