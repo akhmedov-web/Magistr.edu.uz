@@ -12,7 +12,8 @@ import HomeDownloads from '../components/Home/HomeDownloads'
 export default function Home() {
   return (
     <>
-<div className="row"> <HomeMain/> </div>
+      <HomeMain/> 
+<div className="container">
 <div className="row"><HomeBenefits/></div>
 <div className="row"><HomeUsage/></div>
 <div className="row"><HomeProcess/></div>
@@ -20,6 +21,7 @@ export default function Home() {
 <div className="row"><HomeAd/></div>
 <div className="row"><HomeNews/></div>
 <div className="row"><HomeDownloads/></div>
+</div>
     </>
   )
 }

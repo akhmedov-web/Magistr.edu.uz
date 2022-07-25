@@ -4,7 +4,7 @@ import Downloader2 from "../../images/Downloader2.jpg"
 export default function HomeDownloads() {
   return (
     <div className='homeDownloads d-flex flex-xl-row flex-column justify-content-center align-items-center'>
-      <div className="downloadsFile m-1 d-flex flex-column mb-xl-0 mb-3">
+      <div className="downloadsFile d-flex flex-column  m-xl-3 m-4">
         <img src={Downloader1} alt="img1" className='downloaderImg mb-3'/>
         <div className="downloadesTexts w-100 text-center">
           <h5>Qabul parametrlari</h5>
@@ -12,7 +12,7 @@ export default function HomeDownloads() {
           <button className='btn btn-light text-primary'><i class="bi bi-download m-1"></i>Yuklab olish</button>
         </div>
       </div>
-      <div className="downloadsFile m-3 d-flex flex-column">
+      <div className="downloadsFile d-flex flex-column">
         <img src={Downloader2} alt="img2" className='downloaderImg mb-3'/>
         <div className="downloadesTexts w-100 text-center">
           <h5>Turdosh yo‘nalishlar</h5>

@@ -9,9 +9,10 @@
 /* HomeNavbar*/
 
 .HomeNavbar {
-    width: 100%;
+    width: 75%;
     height: 12vh;
     display: flex;
+    margin:0px auto;
 }
 
 .HomeNavbar ul {
@@ -26,7 +27,6 @@
 
 .logo {
     position: absolute;
-
     background-image: url(../images/logo.svg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -66,8 +66,10 @@
 .homeMain {
     height: 83vh;
     background: linear-gradient(0deg, #E9E9F9 0.76%, rgba(225, 226, 255, 0) 100%), #FFFFFF;
+}
 
-
+.homeContent {
+    width: 75%;
 }
 
 .mainLeft {
@@ -82,12 +84,13 @@
 }
 
 .mainBtn {
-    width: 40%;
+    width: 45%;
+    padding: 10px;
 }
 
 .mainImg {
     height: 90%;
-    width: 90%;
+    width: 100%;
 
 }
 
@@ -142,7 +145,7 @@
 /* HomeUsage block start */
 .homeUsage {
     height: 105vh;
-;
+    ;
 }
 
 .usageTop {
@@ -221,37 +224,23 @@
 
 
 /* HomeStatistic block start */
+
 .homeStatistic {
-    height: 95vh;
-
+    height: 80vh;
 }
-
-.homeBox {
-    width: 100%;
-    height: 18vh;
-    background: #F9F9FF;
-    border-radius: 4px;
+.statisticHeaderContent{
+    width: 50%;
 }
-
-.home_input {
-    justify-content: space-between;
-    display: flex;
+.statisticHeaderContent li{
+    color:#000;
 }
-
-.table tr td:nth-child(2) {
-    color: #1890FF;
-}
-
-
-
-
 /* HomeStatistic block end */
 
 
 /* HomeAd block start */
 .homeAd {
     height: 20vh;
-
+    border-radius: 3px;
     background-color: #6F44FF;
 }
 
@@ -310,15 +299,12 @@
     color: rgba(0, 0, 0, 0.571);
 }
 
-
-
 /* HomeNews block end */
 
 
 /* HomeDownloads block start */
 .homeDownloads {
     height: 90vh;
-
 }
 
 .downloadsFile {
@@ -346,52 +332,23 @@
 /* HomeFooter block start */
 .homeFooter {
     height: 40vh;
-
     background: #313131;
     color: white;
     list-style: none;
     display: flex;
 }
 
-.footerLogo {
-    background-image: url(../images/logo.svg);
-    background-repeat: no-repeat;
-    margin: 20px;
-
-}
-
-.footerLogo span {
-    position: relative;
-    line-height: 4rem;
-    font-size: 24px;
-    left: 4rem;
-
-}
-
-.homeFooter h5 {
-    text-align: center;
-}
-
-.footer li {
-    margin: 20px;
-}
-
-.homeFooter ul {
-    margin: 45px;
-}
-
-.homeFooter ul li {
-    line-height: 3rem;
-    text-align: center;
-    list-style: none;
-}
-
-
-/* HomeFooter block end */
-
-.modal-content {
+.footerContent {
     width: 75%;
 }
+
+.footerContent ul {
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+/* HomeFooter block end */
 
 .changingPassword {
     cursor: default;
@@ -404,8 +361,10 @@
 
 @media only screen and (max-width:576px) {
     .HomeNavbar {
+        width: 100%;
         position: relative;
-        transition: 0.5s height ease-in-out;
+        transition: 0.5s all ease-in-out;
+        margin-bottom: 10px;
     }
 
     .HomeNavbar.expanded {
@@ -415,18 +374,18 @@
 
     .HomeNavbar.expanded ul {
         position: absolute;
-        top: 120px;
+        top: 70px;
         left: 0;
         display: flex;
         width: 100%;
         flex-direction: column;
         overflow: hidden;
-
     }
 
     .HomeNavbar.expanded ul li {
         margin: 15px 0;
-        font-size: 24px;
+        font-size: 23px;
+        color: #000;
     }
 
     .HomeNavbar.expanded ul a {
@@ -436,25 +395,24 @@
 
     .logo {
         position: absolute;
-
         background-image: url(../images/logo.svg);
         background-repeat: no-repeat;
         background-size: contain;
         width: 45%;
-        height: 80px;
+        height: 70px;
         position: relative;
+        margin-top: 5px;
     }
 
     .logo span {
-        line-height: 4.5rem;
         font-size: 20px;
+        margin-left: -20px;
     }
 
     .HomeNavbar .logo {
         position: absolute;
         top: 0;
         height: 70px;
-
     }
 
     .HomeNavbar .toggle-icon {
@@ -537,6 +495,7 @@
 
     .homeAd {
         height: 16vh;
+        border-radius: 3px;
     }
 
     .ad_text {
@@ -563,27 +522,26 @@
         display: block;
     }
 
-    .homeBox {
+    .homeStatistic {
+        height: 100vh;
+    }
+    .statisticHeaderContent{
         width: 100%;
-        height: 25vh;
-        background: #F9F9FF;
-        border-radius: 4px;
     }
 
     .homeDownloads {
         height: 140vh;
-
     }
 
     .downloadsFile {
         height: 45%;
-        height: 38%;
-        width: 70%;
+        height: 50%;
+        width: 80%;
     }
 
     .downloaderImg {
         width: 100%;
-        height: 80%;
+        height: 70%;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.198);
     }
 
@@ -595,42 +553,8 @@
         font-size: 14px;
     }
 
-
-
-    .homeFooter {
-        height: auto;
-        background: #313131;
-        color: white;
-        list-style: none;
-        display: block;
-    }
-
-    .homeFooter h5 {
-        text-align: start;
-    }
-
-    .footer {
-        margin: 44px;
-    }
-
-    .footerLogo span {
-        position: relative;
-        line-height: 4rem;
-        font-size: 24px;
-        left: 4rem;
-
-    }
-
-    .homeFooter ul li {
-        line-height: 3rem;
-        text-align: start;
-        list-style: none;
-    }
-
-
     .homeProcess {
-        height: 110vh;
-    
+        height: 120vh;
         background-color: #F9F9FF;
     }
 
@@ -678,11 +602,29 @@
     }
 
     .homeDownloads {
-        height: 150vh;
-
+        height: 170vh;
     }
 
-    .modal-content {
+    .homeFooter {
+        height: 130vh;
+        background: #313131;
+        color: white;
+        list-style: none;
+    }
+
+    .footerContent {
         width: 100%;
+    }
+
+    .footerContent div {
+        width: 100%;
+        justify-content: start;
+        align-items: flex-start;
+    }
+
+    .footerContent p,
+    .footerContent li {
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.768);
     }
 }

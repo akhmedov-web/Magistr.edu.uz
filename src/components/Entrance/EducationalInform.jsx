@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Modal from '../Modal/Modal'
 
 export default function EducationalInform() {
   return (
@@ -7,9 +8,9 @@ export default function EducationalInform() {
 
       <div className="educationalAdd d-flex justify-content-between align-items-center px-3 bg-light">
         <h4>Ta'lim ma'lumotlari</h4>
-        <button className='btn btn-success educationalBtn'><i class="bi bi-plus-lg"></i> Qo'shish</button>
+        <button  className='btn btn-success educationalBtn' data-bs-target="#exampleModalToggle6" data-bs-toggle="modal" data-bs-dismiss="modal"><i class="bi bi-plus-lg"></i> Qo'shish</button>
       </div>
-
+<Modal/>
       <div className="educationalContent w-100 bg-light p-3">
         <table>
           <tbody>

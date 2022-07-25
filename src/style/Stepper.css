@@ -22,7 +22,7 @@
   }
   .stepperBlock{
     width: 60%;
-    min-height: 48vh;
+    min-height: 85vh;
     margin: 0px auto;
   }
   .educationalBlock{
@@ -82,6 +82,71 @@
   .checkmark{
     width: 200px;
   }
+  .addEducationInput{
+    width: 48%;
+  }
+  .personalCard {
+    width: 70%;
+  }
+  
+  .label_card_top {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .label_card_bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+  
+  .label_card_left .label_card_top,
+  label {
+    width: 46%;
+  }
+  
+  .select {
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .label_card_bottom input {
+    width: 100%;
+    font-weight: 500;
+  }
+  
+  
+  li {
+    margin: 10px;
+  
+  }
+  
+  .label_wrappers {
+    margin-top: 2rem;
+    display: flex;
+  }
+  
+  .label_wrappers_left {
+    width: 100%;
+    margin: 1rem -1rem 1rem 1rem;
+  
+  }
+  
+  .label_wrappers_bottom input {
+    width: 95%;
+    font-weight: 500;
+  }
+  
+  .label_wrappers_bottom label {
+    width: 50%;
+  }
+  
+  .label_case {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+  
   @media only screen and (max-width:576px){
     .entryInform{
         width: 90%;
@@ -92,7 +157,7 @@
       }
       .stepperBlock{
         width: 100%;
-        height: 100vh;
+        height: auto;
       }
       .educationalBlock{
         height: 100vh;
@@ -130,5 +195,43 @@
       .activeStepper{
         font-size: 11px;
       }
-      
+      .addEducationInput{
+        width: 100%;
+      }
+      .personalCard {
+        width: 100%;
+      }
+    
+      .label_card_top {
+        display: contents;
+      }
+    
+      .label_left {
+        display: contents;
+      }
+    
+      .label_right {
+        display: contents;
+      }
+    
+    
+    
+      .label_card_bottom {
+        display: contents;
+      }
+    
+      .label_wrappers {
+        margin-top: 2rem;
+        display: contents;
+      }
+    
+      .label_wrappers_left {
+        width: 100%;
+        margin: 0;
+    
+      }
+    
+      .label_case {
+        display: contents;
+      }
   }

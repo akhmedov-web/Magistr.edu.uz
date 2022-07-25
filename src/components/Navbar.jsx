@@ -11,9 +11,9 @@ const HomeNavbar = () => {
 
 
   return (
-    <div className={toggleMenu ? 'HomeNavbar col-12 expanded' : 'HomeNavbar'}>
+    <div className="container">
+    <div className={toggleMenu ? 'HomeNavbar expanded' : 'HomeNavbar'}>
       <div className='logo'> <span> Magistr.edu.uz</span></div>
-
       <ul>
         <li>Asosiy</li>
         <li>Imtiyozlar</li>
@@ -27,6 +27,7 @@ const HomeNavbar = () => {
         {toggleMenu ? <Icon icon={x} size={28} /> : <Icon icon={menu} size={28} />}
       </div>
 
+    </div>
     </div>
   );
 };

@@ -6,7 +6,6 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Account from "./pages/Account"
 import FullInfo from './components/Account/FullIinfo';
 import Application from './pages/Application'
-import Entrance from './pages/Entrance';
 import EntryPage from './components/Entrance/EntryPage';
 import PersonalInform from './components/Entrance/PersonalInform';
 import EducationalInform from './components/Entrance/EducationalInform';
@@ -17,7 +16,7 @@ import News from './pages/News';
 
 export default function App() {
   return (
-    <div className='container'>
+    <div className='container-fluid'>
       <BrowserRouter>
         <div className="row"><Navbar /></div>
         <Routes>

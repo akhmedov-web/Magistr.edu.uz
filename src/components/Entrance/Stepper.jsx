@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import "../../style/Stepper.css"
 import { Outlet, NavLink } from 'react-router-dom'
 export default function Stepper() {
   return (

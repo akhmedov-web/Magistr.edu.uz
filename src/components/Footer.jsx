@@ -1,44 +1,37 @@
 import React from 'react'
+import Img from "../images/logo.svg"
 
 export default function Footer() {
   return (
     <div className='homeFooter'>
-
-      <div className="footer">
-        <div className="footerLogo"><span>Magistr.edu.uz</span>   </div>
-        <li style={{lineHeight:"2rem"}}>   Portalda eʼlon qilingan materiallardan nusxa koʻchirish, <br /> tarqatish va boshqa shakllarda foydalanish faqat <br /> tahririyat yozma roziligi bilan amalga oshirilishi mumkin.</li>
-
-        <li>2021 © Vakansiya edu.uz</li>
+<div className="footerContent h-100 mx-auto d-flex flex-xl-row flex-column justify-content-around align-items-center">
+      <div className='mb-3'>
+        <ul className='d-flex flex-xl-row mt-4 justify-content-start'><img src={Img} alt="img"/><span className='ms-2'>Magistr.edu.uz</span></ul>
+        <p className='my-4'>Portalda e'lon qilingan materiallardan nusxa ko'chirish, <br /> tarqatish va boshqa shakllarda foydalanish faqat <br /> tahririyat yozma roziligi bilan amalga oshirilishi mumkin.</p>
+        <p>2021 © Vakansiya edu.uz</p>
       </div>
-
-
-
-
-      <ul>
-        <h5>Asosisy</h5>
+      <div className='text-start h-100 d-flex flex-column justify-content-center'>
+        <h5>Asosiysi</h5>
         <li>Imtiyozlar</li>
         <li>Yangilklar</li>
         <li>Satastitika</li>
-      </ul>
+      </div>
 
-      <ul>
+      <div className='text-start h-100 d-flex flex-column justify-content-center'>
         <h5>Biz ijtimoiy tarmoqlarda</h5>
         <li><i class="bi bi-instagram"></i> Instagram</li>
         <li><i class="bi bi-telegram"></i> Telegram</li>
         <li><i class="bi bi-facebook"></i> Facebook</li>
 
-      </ul>
+      </div>
 
-      <ul>
+      <div className='text-start h-100 d-flex flex-column justify-content-center'>
         <h5>Bog’lanish</h5>
         <li><i class="bi bi-telephone"></i> +998336959550</li>
         <li><i class="bi bi-telephone"></i> +998336959650</li>
         <li><i class="bi bi-envelope"></i> aviapack@gmail.com</li>
-
-
-
-      </ul>
-
+      </div>
+      </div>
     </div>
   )
 }
