@@ -15,27 +15,27 @@ import Stepper from './components/Entrance/Stepper';
 import News from './pages/News';
 
 export default function App() {
-  return (
-    <div className='container-fluid'>
-      <BrowserRouter>
-        <div className="row"><Navbar /></div>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/stepper" element={<Stepper />}>
-            <Route path="" element={<EntryPage />}></Route>
-            <Route path="personal" element={<PersonalInform />}></Route>
-            <Route path="educations" element={<EducationalInform />}></Route>
-            <Route path="specialty" element={<ChoosenSpecialty />}></Route>
-            <Route path="privilege" element={<PrivilegeInform />}></Route>
-          </Route>
-          <Route path="/account" element={<Account />}>
-            <Route path="" element={<Application />}></Route>
-            <Route path="full-info" element={<FullInfo />}></Route>
-          </Route>
-          <Route path="/news" element={<News />} />
-        </Routes>
-        <div className="row"><Footer /></div>
-      </BrowserRouter>
-    </div>
-  )
+    return (
+        <div className=''>
+            <BrowserRouter>
+                <div className="row"><Navbar /></div>
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/stepper" element={<Stepper />}>
+                        <Route path="" element={<EntryPage />}></Route>
+                        <Route path="personal" element={<PersonalInform />}></Route>
+                        <Route path="educations" element={<EducationalInform />}></Route>
+                        <Route path="specialty" element={<ChoosenSpecialty />}></Route>
+                        <Route path="privilege" element={<PrivilegeInform />}></Route>
+                    </Route>
+                    <Route path="/account" element={<Account />}>
+                        <Route path="" element={<Application />}></Route>
+                        <Route path="full-info" element={<FullInfo />}></Route>
+                    </Route>
+                    <Route path="/news" element={<News />} />
+                </Routes>
+                <div className="row"><Footer /></div>
+            </BrowserRouter>
+        </div>
+    )
 }
