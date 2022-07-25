@@ -230,6 +230,13 @@
 }
 .statisticHeaderContent{
     width: 50%;
+
+}
+.homeBox {
+    width: 100%;
+    height: 18vh;
+    background: #F9F9FF;
+    border-radius: 4px;
 }
 .statisticHeaderContent li{
     color:#000;
@@ -555,6 +562,7 @@
 
     .homeProcess {
         height: 120vh;
+        height: 110vh;
         background-color: #F9F9FF;
     }
 
@@ -626,5 +634,9 @@
     .footerContent li {
         font-size: 14px;
         color: rgba(255, 255, 255, 0.768);
+    }
+    #collapse1 {
+        overflow-y:scroll;
+        height: 50%;
     }
 }

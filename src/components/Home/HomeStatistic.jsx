@@ -5,9 +5,9 @@ export default function HomeStatistic() {
     <div className='col-12 homeStatistic'>
       <div className="row mb-4">
         <div className="statisticHeader mt-4">
-        <div className='statisticHeaderContent'>
-        <h1>OTMlar va yo‘nalishlar kesimida arizalar statistikasi</h1>
-        </div>
+          <div className='statisticHeaderContent'>
+            <h1>OTMlar va yo‘nalishlar kesimida arizalar statistikasi</h1>
+          </div>
           <div className='d-flex justify-content-between list-unstyled p-2'>
             <li style={{ fontSize: '24px' }}>Filtr</li>
             <li style={{ color: "#FF162E" }}>Filtrni tozalash</li>
@@ -56,6 +56,61 @@ export default function HomeStatistic() {
         </tbody>
       </table>
 
+      <div id="collapse1">
+        <table class="table">
+          <thead>
+            <tr>
+              <th >Mutaxasislik nomi</th>
+              <th >Mutaxasislik shifiri</th>
+              <th >Mutaxasislik sohasi</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>New York No. 1 Lake Park</td>
+              <td>Invite Brown Delete</td>
+              <td>Brown developer</td>
+            </tr>
+            <tr>
+              <td>London No.1 Lake Park</td>
+              <td>Invite Brown Delete</td>
+              <td>Green  loser</td>
+            </tr>
+            <tr>
+              <td>Sidney No. 1 Lake Park</td>
+              <td>Invite Brown Delete</td>
+              <td>Black teacher</td>
+            </tr>
+            <tr>
+              <td>Paris No. 1 Lake Park</td>
+              <td>Invite Brown Delete</td>
+              <td>Brown developer</td>
+
+            </tr>
+            <tr>
+              <td>Seoul No. 1 Lake Park</td>
+              <td>Invite Brown Delete</td>
+              <td>Green  loser</td>
+            </tr>
+            <tr>
+              <td>Tokio No. 1 Lake Park</td>
+              <td>Invite Brown Delete</td>
+              <td>Black teacher</td>
+            </tr>
+            <tr>
+              <td>Tokio No. 1 Lake Park</td>
+              <td>Invite Brown Delete</td>
+              <td>Black teacher</td>
+            </tr><tr>
+              <td>Tokio No. 1 Lake Park</td>
+              <td>Invite Brown Delete</td>
+              <td>Black teacher</td>
+            </tr>
+
+
+          </tbody>
+        </table>
+      </div>
     </div >
   )
 }
