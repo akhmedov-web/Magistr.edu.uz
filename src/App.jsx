@@ -21,14 +21,6 @@ export default function App() {
         <div className="row"><Navbar /></div>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/entrance" element={<Entrance />}/>
-            <Route path="" element={<EntryPage />}></Route>
-            <Route path="stepper" element={<Stepper />}>
-              <Route path="" element={<PersonalInform />}></Route>
-              <Route path="educations" element={<EducationalInform />}></Route>
-              <Route path="specialty" element={<ChoosenSpecialty />}></Route>
-              <Route path="privilege" element={<PrivilegeInform />}></Route>
-            </Route>
           <Route path="/stepper" element={<Stepper />}>
             <Route path="" element={<EntryPage />}></Route>
             <Route path="personal" element={<PersonalInform />}></Route>
