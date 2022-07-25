@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function HomeStatistic() {
   return (
-    <div className='col-12 homeStatistic'>
+    <div className='col-12 homeStatistic mb-5'>
       <div className="row mb-4">
         <div className="statisticHeader mt-4">
           <div className='statisticHeaderContent'>
@@ -28,35 +28,7 @@ export default function HomeStatistic() {
           </div>
         </div>
       </div>
-      <table class="table">
-        <thead>
-          <tr>
-            <th scope="col">Mutaxasislik nomi</th>
-            <th scope="col">Mutaxasislik shifiri</th>
-            <th scope="col">Mutaxasislik sohasi</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>New York No. 1 Lake Park</td>
-            <td>Invite Brown Delete</td>
-            <td>Brown developer</td>
-          </tr>
-
-          <tr>
-            <td>Moskva No. 1 Lake Park</td>
-            <td>Invite Brown Delete</td>
-            <td>Brown developer</td>
-          </tr>
-          <tr>
-            <td>Seoul No. 1 Lake Park</td>
-            <td>Invite Brown Delete</td>
-            <td>Green  loser</td>
-          </tr>
-        </tbody>
-      </table>
-
-      <div id="collapse1">
+      <div id="collapse1 ">
         <table class="table">
           <thead>
             <tr>
@@ -72,42 +44,15 @@ export default function HomeStatistic() {
               <td>Brown developer</td>
             </tr>
             <tr>
+              <td>New York No. 1 Lake Park</td>
+              <td>Invite Brown Delete</td>
+              <td>Brown developer</td>
+            </tr>
+            <tr>
               <td>London No.1 Lake Park</td>
               <td>Invite Brown Delete</td>
               <td>Green  loser</td>
             </tr>
-            <tr>
-              <td>Sidney No. 1 Lake Park</td>
-              <td>Invite Brown Delete</td>
-              <td>Black teacher</td>
-            </tr>
-            <tr>
-              <td>Paris No. 1 Lake Park</td>
-              <td>Invite Brown Delete</td>
-              <td>Brown developer</td>
-
-            </tr>
-            <tr>
-              <td>Seoul No. 1 Lake Park</td>
-              <td>Invite Brown Delete</td>
-              <td>Green  loser</td>
-            </tr>
-            <tr>
-              <td>Tokio No. 1 Lake Park</td>
-              <td>Invite Brown Delete</td>
-              <td>Black teacher</td>
-            </tr>
-            <tr>
-              <td>Tokio No. 1 Lake Park</td>
-              <td>Invite Brown Delete</td>
-              <td>Black teacher</td>
-            </tr><tr>
-              <td>Tokio No. 1 Lake Park</td>
-              <td>Invite Brown Delete</td>
-              <td>Black teacher</td>
-            </tr>
-
-
           </tbody>
         </table>
       </div>
