@@ -1,14 +1,10 @@
-<<<<<<< HEAD
-import React from 'react'
-import { Link } from 'react-router-dom';
-import per from "../../images/person.png"
-=======
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../../style/Account.css'
 import per from '../../images/person.png'
 
->>>>>>> 442d3a1202deabeecbac904a96d9c7b3f0a32ec1
+
 export default function FullInfo() {
     return (
         <>

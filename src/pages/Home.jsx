@@ -12,7 +12,6 @@ import Modal from '../components/Modal/Modal.jsx';
 export default function Home() {
   return (
     <>
-<<<<<<< HEAD
       <HomeMain/> 
 <div className="container">
 <div className="row"><HomeBenefits/></div>
@@ -24,18 +23,6 @@ export default function Home() {
 <div className="row"><HomeDownloads/></div>
 </div>
 <Modal/>
-=======
-      <HomeMain />
-      <div className="container">
-        <div className="row"><HomeBenefits /></div>
-        <div className="row"><HomeUsage /></div>
-        <div className="row"><HomeProcess /></div>
-        <div className="row"><HomeStatistic /></div>
-        <div className="row"><HomeAd /></div>
-        <div className="row"><HomeNews /></div>
-        <div className="row"><HomeDownloads /></div>
-      </div>
->>>>>>> 442d3a1202deabeecbac904a96d9c7b3f0a32ec1
     </>
   )
 }
