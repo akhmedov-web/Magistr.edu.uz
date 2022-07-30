@@ -1,6 +1,6 @@
 import React from 'react';
 import Newimg from '../images/Qabul.png';
-
+import Modal from '../components/Modal/Modal.jsx';
 
 const News = () => {
     return (
@@ -48,8 +48,9 @@ const News = () => {
             </div>
 
 
-
+            <Modal/>
         </div>
+        
     );
 };
 

@@ -6,7 +6,7 @@ export default function HomeProcess() {
       <div className="processTop d-flex align-items-center">
         <div className='processHeader'><h1>Ariza topshirish va uni qabul qilish jarayoni</h1></div>
       </div>
-      <div className="processBottom d-xl-flex d-block">
+      <div className="processBottom d-xl-flex d-lg-flex d-block">
         <div className="processCard d-flex flex-column">
           <li className='mb-3'>1</li>
           <h5>Tizimdan ro‘yxatdan o’tiladi va ariza topshirladi</h5>

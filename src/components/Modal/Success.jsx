@@ -13,7 +13,7 @@ export default function Success() {
                         <h5>Arizangiz muvaffaqiyatli topshirildi</h5>
                         </div>
                         <div className="modal-footer">
-                        <btn className='btn btn-success' onClick={()=>link("/")} data-bs-dismiss="modal">Bosh sahifaga qaytish</btn>
+                        <btn className='btn btn-success' onClick={()=>link("/account")} data-bs-dismiss="modal">Akkountga o'tish</btn>
                         </div>
                         
                     </div>

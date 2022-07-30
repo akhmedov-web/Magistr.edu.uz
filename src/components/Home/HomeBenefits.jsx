@@ -6,7 +6,7 @@ export default function HomeBenefits() {
       <div className="benefitTop d-flex align-items-center justify-content-center">
         <div className='benefitHeader text-center'><h1>Magistraturaga topshiruvchilar uchun imtiyozlar</h1></div>
       </div>
-      <div className="benefitBottom d-flex flex-xl-row flex-column justify-content-around">
+      <div className="benefitBottom d-flex flex-lg-row flex-xl-row flex-column justify-content-between">
         <div className="benefitCard d-flex flex-column align-items-center justify-content-around text-center p-3">
           <div className='iconWrapper'><i class="bi bi-trophy"></i></div>
           <h6>Yutuqlar</h6>

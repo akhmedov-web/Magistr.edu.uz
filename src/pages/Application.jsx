@@ -82,7 +82,7 @@ export default function Application() {
                                             </div>
                                             <div className="bottom-right">
                                                 <div className="btn btn-outline-dark mx-4"><i class="bi bi-pencil"></i>Tahrirlash</div>
-                                                <div className="btn btn-primary">Batafsil</div>
+                                                <Link to="full-info" className="btn btn-primary">Batafsil</Link>
                                             </div>
                                         </div>
                                     </div>

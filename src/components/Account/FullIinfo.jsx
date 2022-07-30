@@ -1,5 +1,6 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom';
+import per from "../../images/person.png"
 export default function FullInfo() {
   return (
     <>

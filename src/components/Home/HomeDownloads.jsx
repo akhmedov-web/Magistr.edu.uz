@@ -3,8 +3,8 @@ import Downloader1 from "../../images/downloader1.png"
 import Downloader2 from "../../images/Downloader2.jpg"
 export default function HomeDownloads() {
   return (
-    <div className='homeDownloads d-flex flex-xl-row flex-column justify-content-center align-items-center'>
-      <div className="downloadsFile d-flex flex-column  m-xl-3 m-4">
+    <div className='homeDownloads d-flex flex-xl-row flex-lg-row flex-column justify-content-center align-items-center'>
+      <div className="downloadsFile d-flex flex-column  m-xl-3 mx-lg-3 m-4">
         <img src={Downloader1} alt="img1" className='downloaderImg mb-3'/>
         <div className="downloadesTexts w-100 text-center">
           <h5>Qabul parametrlari</h5>

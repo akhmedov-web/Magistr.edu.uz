@@ -9,7 +9,6 @@
 /* HomeNavbar*/
 
 .HomeNavbar {
-    width: 75%;
     height: 12vh;
     display: flex;
     margin:0px auto;
@@ -23,6 +22,7 @@
     color: #12141D;
     list-style: none;
     align-items: center;
+    cursor:pointer;
 }
 
 .logo {
@@ -69,7 +69,7 @@
 }
 
 .homeContent {
-    width: 75%;
+    width:100%;
 }
 
 .mainLeft {
@@ -241,6 +241,9 @@
 .statisticHeaderContent li{
     color:#000;
 }
+table{
+    width: 600px;
+}
 /* HomeStatistic block end */
 
 
@@ -321,7 +324,7 @@
 
 .downloaderImg {
     width: 100%;
-    height: 70%;
+    height: 65%;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.198);
 }
 
@@ -345,14 +348,16 @@
     display: flex;
 }
 
-.footerContent {
-    width: 75%;
-}
+
 
 .footerContent ul {
     justify-content: center;
     align-items: center;
     list-style-type: none;
+    cursor: pointer;
+}
+.footerContent div li{
+    cursor: pointer;
 }
 
 /* HomeFooter block end */
@@ -364,6 +369,555 @@
 
 .changingPassword:hover {
     text-decoration: underline;
+}
+@media only screen and (max-width:992px) {
+    .HomeNavbar {
+        width: 100%;
+        position: relative;
+        transition: 0.5s all ease-in-out;
+        margin-bottom: 10px;
+    }
+
+    .HomeNavbar.expanded {
+        height: 80vh;
+        overflow: hidden;
+    }
+
+    .HomeNavbar.expanded ul {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .HomeNavbar.expanded ul li {
+        margin: 15px 0;
+        font-size: 23px;
+        color: rgb(0, 0, 0);
+    }
+
+    .HomeNavbar.expanded ul a {
+        margin: 15px 0;
+        font-size: 24px;
+    }
+
+    .logo {
+        position: absolute;
+        background-image: url(../images/logo.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 45%;
+        height: 70px;
+        position: relative;
+        margin-top: 5px;
+    }
+
+    .logo span {
+        font-size: 20px;
+        margin-left: -20px;
+    }
+
+    .HomeNavbar .logo {
+        position: absolute;
+        top: 0;
+        height: 70px;
+    }
+
+    .HomeNavbar .toggle-icon {
+        color: #000;
+        display: block;
+        position: absolute;
+        top: 28px;
+        right: 20px;
+    }
+
+    .HomeNavbar ul {
+        display: none;
+    }
+
+
+    .homeMain {
+        height: 70vh;
+    }
+
+    .mainLeft {
+        width: 100%;
+    }
+
+
+    .mainBtn {
+        width: 60%;
+    }
+
+    .homeBenefits {
+        height: 150vh;
+        padding:3rem 0px;
+    }
+
+    .benefitTop {
+        height: 20%;
+    }
+
+    .benefitBottom {
+        height: 80%;
+    }
+
+    .benefitHeader {
+        width: 100%;
+    }
+
+    .benefitCard {
+        height: 30%;
+        width: 70%;
+        margin: 0px auto;
+    }
+
+    .homeUsage {
+        height: 100vh;
+        padding: 1rem 0px;
+    }
+
+    .usageTop {
+        height: 30%;
+    }
+
+    .topLeft {
+        height: 40%;
+        width: 100%;
+    }
+
+    .topRight {
+        height: 60%;
+        width: 100%;
+        padding: 12px 0px;
+    }
+
+    .topRight p {
+        opacity: 75%;
+    }
+
+    .usageBottom {
+        height: 70%;
+    }
+
+    .usageVideo {
+        width: 100%;
+        height: 100%;
+    }
+
+    .homeAd {
+        height: 16vh;
+        border-radius: 3px;
+        padding: 15px 0px;
+    }
+
+    .ad_text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .ad_text h4 {
+        font-size: 16px;
+    }
+
+    .adBtn {
+        height: 45%;
+        height: 50%;
+        width: 35%;
+        font-size: 11px;
+    }
+
+    .home_input {
+        justify-content: space-between;
+        display: block;
+    }
+
+    .homeStatistic {
+        height: 100vh;
+    }
+    .statisticHeaderContent{
+        width: 100%;
+    }
+
+    .homeDownloads {
+        height: 200vh;
+    }
+
+    .downloadsFile {
+        height: 45%;
+        width: 45%;
+    }
+
+    .downloaderImg {
+        width: 100%;
+        height: 70%;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.198);
+    }
+
+    .downloadesTexts {
+        height: 30%;
+    }
+
+    .downloadesTexts p {
+        font-size: 14px;
+    }
+
+    .homeProcess {
+        height: 120vh;
+        height: 110vh;
+        background-color: #F9F9FF;
+    }
+
+    .processTop {
+        height: 20%;
+    }
+
+    .processHeader {
+        width: 90%;
+    }
+
+    .processBottom {
+        height: 80%;
+    }
+
+    .processCard {
+        width: 95%;
+        height: 33%;
+        padding: 25px;
+    }
+
+    .processCard li {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        list-style-type: none;
+        color: #fff;
+        background: black;
+        text-align: center;
+        font-size: 23px;
+        padding-top: 2px;
+    }
+
+    .processCard p {
+        font-size: 13px;
+        color: rgba(0, 0, 0, 0.542);
+    }
+
+    .homeNews {
+        height: 110vh;
+        padding: 1rem 0px;
+    }
+
+    .newsHeader {
+        width: 90%;
+    }
+
+    .swiper {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .swiper-slide {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        cursor: pointer;
+    }
+    
+
+    .homeFooter {
+        height: 130vh;
+        background: #313131;
+        color: white;
+        list-style: none;
+    }
+
+    .footerContent {
+        width: 100%;
+    }
+
+    .footerContent div {
+        width: 100%;
+        justify-content: start;
+        align-items: flex-start;
+    }
+
+    .footerContent p,
+    .footerContent li {
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.768);
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .HomeNavbar {
+        width: 100%;
+        position: relative;
+        transition: 0.5s all ease-in-out;
+        margin-bottom: 10px;
+    }
+
+    .HomeNavbar.expanded {
+        height: 80vh;
+        overflow: hidden;
+    }
+
+    .HomeNavbar.expanded ul {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .HomeNavbar.expanded ul li {
+        margin: 15px 0;
+        font-size: 23px;
+        color: rgb(0, 0, 0);
+    }
+
+    .HomeNavbar.expanded ul a {
+        margin: 15px 0;
+        font-size: 24px;
+    }
+
+    .logo {
+        position: absolute;
+        background-image: url(../images/logo.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 45%;
+        height: 70px;
+        position: relative;
+        margin-top: 5px;
+    }
+
+    .logo span {
+        font-size: 20px;
+        margin-left: -20px;
+    }
+
+    .HomeNavbar .logo {
+        position: absolute;
+        top: 0;
+        height: 70px;
+    }
+
+    .HomeNavbar .toggle-icon {
+        color: #000;
+        display: block;
+        position: absolute;
+        top: 28px;
+        right: 20px;
+    }
+
+    .HomeNavbar ul {
+        display: none;
+    }
+
+
+    .homeMain {
+        height: 70vh;
+    }
+
+    .mainLeft {
+        width: 100%;
+    }
+
+
+    .mainBtn {
+        width: 60%;
+    }
+
+    .homeBenefits {
+        height: 150vh;
+        padding:3rem 0px;
+    }
+
+    .benefitTop {
+        height: 20%;
+    }
+
+    .benefitBottom {
+        height: 80%;
+    }
+
+    .benefitHeader {
+        width: 100%;
+    }
+
+    .benefitCard {
+        height: 30%;
+        width: 100%;
+    }
+
+    .homeUsage {
+        height: 90vh;
+        padding: 1rem 0px;
+    }
+
+    .usageTop {
+        height: 40%;
+    }
+
+    .topLeft {
+        height: 40%;
+        width: 100%;
+    }
+
+    .topRight {
+        height: 60%;
+        width: 100%;
+        padding: 12px 0px;
+    }
+
+    .topRight p {
+        opacity: 75%;
+    }
+
+    .usageBottom {
+        height: 60%;
+    }
+
+    .usageVideo {
+        width: 100%;
+        height: 100%;
+    }
+
+    .homeAd {
+        height: 16vh;
+        border-radius: 3px;
+        padding: 15px 0px;
+    }
+
+    .ad_text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .ad_text h4 {
+        font-size: 16px;
+    }
+
+    .adBtn {
+        height: 45%;
+        height: 50%;
+        width: 35%;
+        font-size: 11px;
+    }
+
+    .home_input {
+        justify-content: space-between;
+        display: block;
+    }
+
+    .homeStatistic {
+        height: 100vh;
+    }
+    .statisticHeaderContent{
+        width: 100%;
+    }
+
+    .homeDownloads {
+        height: 180vh;
+    }
+
+    .downloadsFile {
+        height: 45%;
+        width: 50%;
+    }
+
+    .downloaderImg {
+        width: 100%;
+        height: 70%;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.198);
+    }
+
+    .downloadesTexts {
+        height: 30%;
+    }
+
+    .downloadesTexts p {
+        font-size: 14px;
+    }
+
+    .homeProcess {
+        height: 120vh;
+        height: 110vh;
+        background-color: #F9F9FF;
+    }
+
+    .processTop {
+        height: 20%;
+    }
+
+    .processHeader {
+        width: 90%;
+    }
+
+    .processBottom {
+        height: 80%;
+    }
+
+    .processCard {
+        width: 95%;
+        height: 33%;
+        padding: 25px;
+    }
+
+    .processCard li {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        list-style-type: none;
+        color: #fff;
+        background: black;
+        text-align: center;
+        font-size: 23px;
+        padding-top: 2px;
+    }
+
+    .processCard p {
+        font-size: 13px;
+        color: rgba(0, 0, 0, 0.542);
+    }
+
+    .homeNews {
+        height: 110vh;
+        padding: 1rem 0px;
+    }
+
+    .newsHeader {
+        width: 90%;
+    }
+
+    .homeFooter {
+        height: 130vh;
+        background: #313131;
+        color: white;
+        list-style: none;
+    }
+
+    .footerContent {
+        width: 100%;
+    }
+
+    .footerContent div {
+        width: 100%;
+        justify-content: start;
+        align-items: flex-start;
+    }
+
+    .footerContent p,
+    .footerContent li {
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.768);
+    }
 }
 
 @media only screen and (max-width:576px) {
@@ -448,7 +1002,8 @@
     }
 
     .homeBenefits {
-        height: 120vh;
+        height: 140vh;
+        padding: 1rem 0px;
     }
 
     .benefitTop {
@@ -470,7 +1025,7 @@
 
     .homeUsage {
         height: 70vh;
-
+        padding: 0px 10px;
     }
 
     .usageTop {
@@ -503,6 +1058,7 @@
     .homeAd {
         height: 16vh;
         border-radius: 3px;
+        padding: 10px 1px;
     }
 
     .ad_text {
@@ -562,7 +1118,7 @@
 
     .homeProcess {
         height: 120vh;
-        height: 110vh;
+
         background-color: #F9F9FF;
     }
 
@@ -635,8 +1191,5 @@
         font-size: 14px;
         color: rgba(255, 255, 255, 0.768);
     }
-    #collapse1 {
-        overflow-y:scroll;
-        height: 50%;
-    }
+
 }

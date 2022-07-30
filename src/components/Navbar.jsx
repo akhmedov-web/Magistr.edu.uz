@@ -2,23 +2,23 @@ import React, { useState } from 'react';
 import { Icon } from 'react-icons-kit'
 import { menu } from 'react-icons-kit/feather/menu'
 import { x } from 'react-icons-kit/feather/x'
-const HomeNavbar = () => {
+const HomeNavbar = (props) => {
   const [toggleMenu, setToggleMenu] = useState(false)
   const toggleNav = () => {
     setToggleMenu((e) => !e)
   }
 
 
-
+console.log(props.below)  
   return (
-    <div className="container">
+    <>
     <div className={toggleMenu ? 'HomeNavbar expanded' : 'HomeNavbar'}>
       <div className='logo'> <span> Magistr.edu.uz</span></div>
       <ul>
-        <li>Asosiy</li>
-        <li>Imtiyozlar</li>
-        <li>Yangiliklar</li>
-        <li>Statistika</li>
+        <li onClick={()=>props.below(0,100)}>Asosiy</li>
+        <li onClick={()=>props.below(0,700)}>Imtiyozlar</li>
+        <li onClick={()=>props.below(0,3230)}>Yangiliklar</li>
+        <li onClick={()=>props.below(0,2450)}>Statistika</li>
         <button className='btn1' data-bs-toggle="modal" href="#exampleModalToggle">Kirish </button>
       </ul>
 
@@ -28,7 +28,7 @@ const HomeNavbar = () => {
       </div>
 
     </div>
-    </div>
+    </>
   );
 };
 

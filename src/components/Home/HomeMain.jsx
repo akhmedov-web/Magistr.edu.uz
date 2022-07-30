@@ -3,8 +3,8 @@ import MainImg from "../../images/main.png"
 import Modal from '../Modal/Modal';
 export default function HomeMain() {
   return (
-    <div className='homeMain d-xl-flex w-100'>
-      <div className="homeContent d-flex mx-auto">
+    <div className='homeMain d-xl-flex d-flex'>
+      <div className="homeContent container d-flex">
       <div className="mainLeft d-flex flex-column justify-content-center ">
         <h1 className='mb-1'>Magistratura uchun</h1>
         <h1 className='mb-4 text-warning'>Qabul 2022</h1>

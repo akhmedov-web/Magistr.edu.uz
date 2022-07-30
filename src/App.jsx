@@ -14,11 +14,15 @@ import PrivilegeInform from './components/Entrance/PrivilegeInform';
 import Stepper from './components/Entrance/Stepper';
 import News from './pages/News';
 
+
 export default function App() {
+  function below(x,y){
+    window.scrollBy(x,y)
+}
   return (
-    <div className='container-fluid'>
+    <div>
       <BrowserRouter>
-        <div className="row"><Navbar /></div>
+        <div className='container'><Navbar below={below}/></div>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/stepper" element={<Stepper />}>
@@ -34,8 +38,9 @@ export default function App() {
           </Route>
           <Route path="/news" element={<News />} />
         </Routes>
-        <div className="row"><Footer /></div>
+        <div><Footer below={below}/></div>
       </BrowserRouter>
+      
     </div>
   )
 }

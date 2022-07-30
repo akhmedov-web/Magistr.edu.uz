@@ -1,6 +1,7 @@
 import React from 'react';
 import "../../style/Stepper.css"
 import { Outlet, NavLink } from 'react-router-dom'
+import Modal from '../Modal/Modal';
 export default function Stepper() {
   return (
     <div className='stepperBlock d-flex flex-column align-items-start'>
@@ -24,6 +25,7 @@ export default function Stepper() {
         </NavLink>
       </div>
       <Outlet />
+      <Modal/>
     </div>
   )
 }

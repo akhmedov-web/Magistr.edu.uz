@@ -28,7 +28,7 @@ export default function HomeStatistic() {
           </div>
         </div>
       </div>
-      <div id="collapse1 ">
+      <div className='table-responsive'>
         <table class="table">
           <thead>
             <tr>

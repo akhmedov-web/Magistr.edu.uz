@@ -8,7 +8,7 @@ import HomeStatistic from '../components/Home/HomeStatistic'
 import HomeAd from '../components/Home/HomeAd'
 import HomeNews from '../components/Home/HomeNews'
 import HomeDownloads from '../components/Home/HomeDownloads'
-
+import Modal from '../components/Modal/Modal.jsx';
 export default function Home() {
   return (
     <>
@@ -22,6 +22,7 @@ export default function Home() {
 <div className="row"><HomeNews/></div>
 <div className="row"><HomeDownloads/></div>
 </div>
+<Modal/>
     </>
   )
 }
