@@ -16,6 +16,7 @@ import News from './pages/News';
 
 
 export default function App() {
+<<<<<<< HEAD
   function below(x,y){
     window.scrollBy(x,y)
 }
@@ -43,4 +44,29 @@ export default function App() {
       
     </div>
   )
+=======
+    return (
+        <div className=''>
+            <BrowserRouter>
+                <div className="row"><Navbar /></div>
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/stepper" element={<Stepper />}>
+                        <Route path="" element={<EntryPage />}></Route>
+                        <Route path="personal" element={<PersonalInform />}></Route>
+                        <Route path="educations" element={<EducationalInform />}></Route>
+                        <Route path="specialty" element={<ChoosenSpecialty />}></Route>
+                        <Route path="privilege" element={<PrivilegeInform />}></Route>
+                    </Route>
+                    <Route path="/account" element={<Account />}>
+                        <Route path="" element={<Application />}></Route>
+                        <Route path="full-info" element={<FullInfo />}></Route>
+                    </Route>
+                    <Route path="/news" element={<News />} />
+                </Routes>
+                <div className="row"><Footer /></div>
+            </BrowserRouter>
+        </div>
+    )
+>>>>>>> 442d3a1202deabeecbac904a96d9c7b3f0a32ec1
 }

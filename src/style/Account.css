@@ -359,7 +359,7 @@ input[type="checkbox"]:checked::before {
 }
 
 .full-sidebar .table tr td {
-    padding: 10px  !important;
+    padding: 10px !important;
 }
 
 .full-sidebar .table tr td:nth-child(1) {
@@ -378,7 +378,7 @@ input[type="checkbox"]:checked::before {
 }
 
 
-.full-sidebar .table tr td .span{
+.full-sidebar .table tr td .span {
     /* border: 1px solid red; */
     width: 40px;
     height: 40px;
@@ -414,7 +414,7 @@ input[type="checkbox"]:checked::before {
     color: #FF402F;
 }
 
-.table-responsive .table tr td{
+.table-responsive .table tr td {
     border-bottom: 0 !important;
 }
 
@@ -426,7 +426,7 @@ input[type="checkbox"]:checked::before {
 /* ==================== Full-info end ============= */
 
 
-@media  (min-width: 992px) and (max-width: 1320px) {
+@media (min-width: 992px) and (max-width: 1320px) {
 
     .account {
         /* background-color: #F2F3F7; */
@@ -726,16 +726,143 @@ input[type="checkbox"]:checked::before {
 
     /*  ============ FULL INFO ======= */
 
-    .full-content {
-        border: 3px solid olivedrab;
-    }
-
     .table-responsive .table {
         width: 650px;
     }
 
+
+    .full-content {
+        /* border: 3px solid olivedrab; */
+
+        margin-bottom: 20px;
+    }
+
+    .page-title {
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+    .full-about {
+        /* border: 1px solid red !important; */
+        width: 72%;
+    }
+
+    .full-about .card .card-top .fullLeft {
+        /* border: 1px solid red; */
+        width: 20%;
+        height: 240px;
+        margin-right: 10px;
+    }
+
+    .fullRight {
+        padding: 5px 10px;
+    }
+
+    .fullRight .person-name {
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    .fullRight .person-text {
+        padding: 5px 0;
+    }
+
+    .person-text i {
+        margin-right: 10px;
+    }
+
+    .fullLeft img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+
+
+    .card-body {
+        /* border: 1px sol  id red; */
+        padding: 10px 0;
+        border-bottom: 1px solid #dee5e8;
+    }
+
+    .body-title {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .td-name {
+        font-weight: 600;
+    }
+
+    .td-about {
+        color: #000 !important;
+    }
+
+
+
+    .full-sidebar {
+        /* border: 1px solid red !important; */
+        width: 26%;
+    }
+
+    .full-sidebar .table tr td {
+        padding: 10px !important;
+    }
+
+    .full-sidebar .table tr td:nth-child(1) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .full-sidebar .table tr td:nth-child(2) {
+        color: #979797;
+        font-size: 14px;
+    }
+
+    .active-c {
+        color: #000;
+    }
+
+
+    .full-sidebar .table tr td .span {
+        /* border: 1px solid red; */
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #E9E9E9;
+        color: #000;
+        font-size: 18px;
+    }
+
+
+    .full-sidebar .table tr td .active {
+        background-color: #219653;
+        color: #fff;
+    }
+
+    .print-content .printf {
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        /* font-weight: 500; */
+    }
+
+    .print-content .printf i {
+        font-size: 20px;
+        margin-right: 20px;
+    }
+
+    .print-content .printf .bi-printer {
+        color: #004FFF;
+    }
+
+    .print-content .printf .bi-file-earmark-pdf {
+        color: #FF402F;
+    }
+
     .table-responsive .table tr td {
-        border: none !important;
+        border-bottom: 0 !important;
     }
 
 
@@ -1049,16 +1176,169 @@ input[type="checkbox"]:checked::before {
 
     /*  ============ FULL INFO ======= */
 
-    
 
-    .table-responsive .table {
-        width: 650px;
-    }
+
 
     .table-responsive .table tr td {
         border: none !important;
     }
+    
+    .table-responsive .table {
+        width: 650px;
+    }
 
+
+    .full-content {
+        /* border: 3px solid olivedrab; */
+
+        margin-bottom: 20px;
+    }
+
+    .page-title {
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+    .full-about {
+        /* border: 1px solid red !important; */
+        width: 70%;
+    }
+
+    .card-top {
+        justify-content: space-between;
+    }
+
+    .full-about .card .card-top .fullLeft {
+        /* border: 1px solid red; */
+        width: 28%;
+        height: 180px;
+        margin-right: 0px;
+    }
+
+    .fullRight {
+        width: 70%;
+        padding: 5px 10px;
+        /* border: 1px solid red; */
+    }
+
+    .fullRight .person-name {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .fullRight .person-text {
+        padding: 5px 0;
+        font-size: 14px;
+    }
+
+    .person-text i {
+        margin-right: 10px;
+    }
+
+    .fullLeft img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+
+
+    .card-body {
+        /* border: 1px sol  id red; */
+        padding: 10px 0;
+        border-bottom: 1px solid #dee5e8;
+    }
+
+    .body-title {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .td-name {
+        font-weight: 600;
+    }
+
+    .border-none {
+        font-size: 14px;
+    }
+
+    .td-about {
+        color: #000 !important;
+    }
+
+
+
+    .full-sidebar {
+        /* border: 1px solid red !important; */
+        width: 28%;
+    }
+
+    .full-sidebar .table tr td {
+        padding: 6px !important;
+    }
+
+    .full-sidebar .table tr td:nth-child(1) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .full-sidebar .table tr td:nth-child(2) {
+        color: #979797;
+        font-size: 12px;
+    }
+
+    .active-c {
+        color: #000;
+    }
+
+
+    .full-sidebar .table tr td .span {
+        /* border: 1px solid red; */
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: #E9E9E9;
+        color: #000;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .full-sidebar .table tr td .active {
+        background-color: #219653;
+        color: #fff;
+    }
+
+    .print-content {
+        padding: 10px !important;
+    }
+
+    .print-content .printf {
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        /* font-weight: 500; */
+    }
+
+    .print-content .printf i {
+        font-size: 20px;
+        margin-right: 20px;
+    }
+
+    .print-content .printf .bi-printer {
+        color: #004FFF;
+    }
+
+    .print-content .printf .bi-file-earmark-pdf {
+        color: #FF402F;
+    }
+
+    .table-responsive .table tr td {
+        border-bottom: 0 !important;
+    }
 
 
 
@@ -1370,8 +1650,183 @@ input[type="checkbox"]:checked::before {
     }
 
     /*  ============ FULL INFO ======= */
+
+
+    .table-responsive .table tr td {
+        border: none !important;
+    }
+    
     .table-responsive .table {
         width: 650px;
+    }
+
+
+    .full-content {
+        /* border: 3px solid olivedrab; */
+
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+    }
+
+    .page-title {
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+    .full-about {
+        /* border: 1px solid red !important; */
+        width: 100%;
+    }
+
+    .card-top {
+        justify-content: space-between;
+    }
+
+    .full-about .card .card-top .fullLeft {
+        /* border: 1px solid red; */
+        width: 28%;
+        height: 180px;
+        margin-right: 0px;
+    }
+
+    .fullRight {
+        width: 70%;
+        padding: 5px 10px;
+        /* border: 1px solid red; */
+    }
+
+    .fullRight .person-name {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .fullRight .person-text {
+        padding: 5px 0;
+        font-size: 14px;
+    }
+
+    .person-text i {
+        margin-right: 10px;
+    }
+
+    .fullLeft img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+
+
+    .card-body {
+        /* border: 1px sol  id red; */
+        padding: 10px 0;
+        border-bottom: 1px solid #dee5e8;
+    }
+
+    .body-title {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .td-name {
+        font-weight: 600;
+    }
+
+    .border-none {
+        font-size: 14px;
+    }
+
+    .td-about {
+        color: #000 !important;
+    }
+
+
+
+    .full-sidebar {
+        /* border: 1px solid red !important; */
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .full-sidebar .table {
+        /* border: 1px solid red; */
+        padding: 0 !important;
+        /* margin: 0; */
+    }
+
+    .full-sidebar .table tr td {
+        /* border: 1px solid red; */
+        padding: 0 0 !important;
+    }
+
+    .full-sidebar .table tr td {
+        padding: 6px 0 !important;
+    }
+
+    .full-sidebar .table tr td:nth-child(1) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .full-sidebar .table tr td:nth-child(2) {
+        color: #979797;
+        font-size: 16px;
+        /* padding: 0 !important; */
+    }
+
+    .full-sidebar .table tr td:nth-child(2) b {
+        margin: 0;
+        padding: 0;
+        color: #000;
+    }
+
+
+
+    .full-sidebar .table tr td .span {
+        /* border: 1px solid red; */
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: #E9E9E9;
+        color: #000;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .full-sidebar .table tr td .active {
+        background-color: #219653;
+        color: #fff;
+    }
+
+    .print-content {
+        padding: 10px 20px !important;
+    }
+
+    .print-content .printf {
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        /* font-weight: 500; */
+    }
+
+    .print-content .printf i {
+        font-size: 20px;
+        margin-right: 20px;
+    }
+
+    .print-content .printf .bi-printer {
+        color: #004FFF;
+    }
+
+    .print-content .printf .bi-file-earmark-pdf {
+        color: #FF402F;
+    }
+
+    .table-responsive .table tr td {
+        border-bottom: 0 !important;
     }
 
 
@@ -1681,4 +2136,188 @@ input[type="checkbox"]:checked::before {
     .btn-outline-dark i {
         margin-right: 5px;
     }
+
+    /* =========== FULL INFO ========== */
+
+    .table-responsive .table tr td {
+        border: none !important;
+    }
+    
+    .table-responsive .table {
+        width: 650px;
+    }
+
+
+    .full-content {
+        /* border: 3px solid olivedrab; */
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+    }
+
+    .page-title {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .full-about {
+        /* border: 1px solid red !important; */
+        width: 100%;
+    }
+
+    .card-top {
+        justify-content: space-between;
+    }
+
+    .full-about .card .card-top .fullLeft {
+        /* border: 1px solid red; */
+        width: 28%;
+        height: 160px;
+        margin-right: 0px;
+    }
+
+    .fullRight {
+        width: 70%;
+        padding: 5px 10px;
+        /* border: 1px solid red; */
+    }
+
+    .fullRight .person-name {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .fullRight .person-text {
+        padding: 5px 0;
+        font-size: 14px;
+    }
+
+    .person-text i {
+        margin-right: 10px;
+    }
+
+    .fullLeft img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+
+
+    .card-body {
+        /* border: 1px sol  id red; */
+        padding: 10px 0;
+        border-bottom: 1px solid #dee5e8;
+    }
+
+    .body-title {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .td-name {
+        font-weight: 600;
+    }
+
+    .border-none {
+        font-size: 14px;
+    }
+
+    .td-about {
+        color: #000 !important;
+    }
+
+
+
+    .full-sidebar {
+        /* border: 1px solid red !important; */
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .full-sidebar .table {
+        /* border: 1px solid red; */
+        padding: 0 !important;
+        /* margin: 0; */
+    }
+
+    .full-sidebar .table tr td {
+        /* border: 1px solid red; */
+        padding: 0 0 !important;
+    }
+
+    .full-sidebar .table tr td {
+        padding: 6px 0 !important;
+    }
+
+    .full-sidebar .table tr td:nth-child(1) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .full-sidebar .table tr td:nth-child(2) {
+        color: #979797;
+        font-size: 16px;
+        /* padding: 0 !important; */
+    }
+
+    .full-sidebar .table tr td:nth-child(2) b {
+        margin: 0;
+        padding: 0;
+        color: #000;
+    }
+
+
+
+    .full-sidebar .table tr td .span {
+        /* border: 1px solid red; */
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: #E9E9E9;
+        color: #000;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .full-sidebar .table tr td .active {
+        background-color: #219653;
+        color: #fff;
+    }
+
+    .print-content {
+        padding: 10px 20px !important;
+    }
+
+    .print-content .printf {
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        /* font-weight: 500; */
+    }
+
+    .print-content .printf i {
+        font-size: 20px;
+        margin-right: 20px;
+    }
+
+    .print-content .printf .bi-printer {
+        color: #004FFF;
+    }
+
+    .print-content .printf .bi-file-earmark-pdf {
+        color: #FF402F;
+    }
+
+    .table-responsive .table tr td {
+        border-bottom: 0 !important;
+    }
+
+
+
+    /* =========== FULL INFO ========== */
+
+
 }

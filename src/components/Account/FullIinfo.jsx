@@ -1,9 +1,17 @@
+<<<<<<< HEAD
 import React from 'react'
 import { Link } from 'react-router-dom';
 import per from "../../images/person.png"
+=======
+import React from 'react';
+import { Link } from 'react-router-dom';
+import '../../style/Account.css'
+import per from '../../images/person.png'
+
+>>>>>>> 442d3a1202deabeecbac904a96d9c7b3f0a32ec1
 export default function FullInfo() {
-  return (
-    <>
+    return (
+        <>
             <div className="full-info">
                 <div className="container">
                     <div className="row-12 py-4">
@@ -220,31 +228,31 @@ export default function FullInfo() {
                         </div>
                         <div className="full-sidebar">
                             <div className="side-top card mb-4">
-                            <div className="fullSide-title body-title p-3">
-                            Ariza holati
-                            </div>
-                            <table className="table">
-                                <tr>
-                                    <td><span className='span active'><i class="bi bi-check-lg"></i></span></td>
-                                    <td><b>Ariza yuborildi</b></td>
-                                </tr>
-                                <tr>
-                                    <td><span className='span'><i class="bi bi-check-lg"></i></span></td>
-                                    <td>Ariza ko‘rib chiqilmoqda</td>
-                                </tr>
-                                <tr>
-                                    <td><span className='span'><i class="bi bi-check-lg"></i></span></td>
-                                    <td>Ariza ko‘rib chiqilmoqda</td>
-                                </tr>
-                                <tr>
-                                    <td><span className='span'><i class="bi bi-check-lg"></i></span></td>
-                                    <td>Ariza ko‘rib chiqilmoqda</td>
-                                </tr>
-                                <tr>
-                                    <td><span className='span'><i class="bi bi-check-lg"></i></span></td>
-                                    <td>Ariza ko‘rib chiqilmoqda</td>
-                                </tr>
-                            </table>
+                                <div className="fullSide-title body-title p-3">
+                                    Ariza holati
+                                </div>
+                                <table className="table">
+                                    <tr>
+                                        <td><span className='span active'><i class="bi bi-check-lg"></i></span></td>
+                                        <td><b>Ariza yuborildi</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span className='span'><i class="bi bi-check-lg"></i></span></td>
+                                        <td>Ariza ko‘rib chiqilmoqda</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span className='span'><i class="bi bi-check-lg"></i></span></td>
+                                        <td>Ariza ko‘rib chiqilmoqda</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span className='span'><i class="bi bi-check-lg"></i></span></td>
+                                        <td>Ariza ko‘rib chiqilmoqda</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span className='span'><i class="bi bi-check-lg"></i></span></td>
+                                        <td>Ariza ko‘rib chiqilmoqda</td>
+                                    </tr>
+                                </table>
                             </div>
 
                             <div className="print-content card py-2 px-4">
@@ -256,5 +264,5 @@ export default function FullInfo() {
                 </div>
             </div>
         </>
-  )
+    )
 }
